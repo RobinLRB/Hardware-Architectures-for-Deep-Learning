@@ -1,0 +1,114 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : neuron_fully_serial
+Version: J-2014.09
+Date   : Tue Nov 10 16:14:46 2020
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: mac_w_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: act_x_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  neuron_fully_serial
+                     ZeroWireload          tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  mac_w_reg[2]/CP (DFQD1)                                 0.00       0.00 r
+  mac_w_reg[2]/Q (DFQD1)                                  0.09       0.09 f
+  i_MACU_unit/w[2] (MAC_unit)                             0.00       0.09 f
+  i_MACU_unit/mult_41/a[2] (MAC_unit_DW_mult_tc_0)        0.00       0.09 f
+  i_MACU_unit/mult_41/U1751/ZN (INVD1)                    0.02       0.11 r
+  i_MACU_unit/mult_41/U1756/Z (BUFFD0)                    0.10       0.21 r
+  i_MACU_unit/mult_41/U1761/Z (XOR2D0)                    0.11       0.32 f
+  i_MACU_unit/mult_41/U1865/ZN (INVD1)                    0.03       0.35 r
+  i_MACU_unit/mult_41/U1745/Z (AN2D0)                     0.08       0.43 r
+  i_MACU_unit/mult_41/U1793/ZN (INVD1)                    0.05       0.48 f
+  i_MACU_unit/mult_41/U1732/ZN (OAI22D0)                  0.07       0.55 r
+  i_MACU_unit/mult_41/U2477/ZN (XNR2D0)                   0.14       0.69 r
+  i_MACU_unit/mult_41/U1862/S (CMPE22D1)                  0.06       0.76 f
+  i_MACU_unit/mult_41/U1937/ZN (AOI222D1)                 0.13       0.89 r
+  i_MACU_unit/mult_41/U1933/ZN (OAI222D0)                 0.09       0.97 f
+  i_MACU_unit/mult_41/U1749/ZN (AOI222D0)                 0.17       1.14 r
+  i_MACU_unit/mult_41/U1936/ZN (OAI222D0)                 0.11       1.25 f
+  i_MACU_unit/mult_41/U1935/ZN (AOI222D1)                 0.12       1.38 r
+  i_MACU_unit/mult_41/U1934/ZN (OAI222D0)                 0.10       1.48 f
+  i_MACU_unit/mult_41/U1731/ZN (AOI222D1)                 0.12       1.60 r
+  i_MACU_unit/mult_41/U1847/ZN (OAI222D0)                 0.10       1.70 f
+  i_MACU_unit/mult_41/U1980/Z (AO222D1)                   0.14       1.84 f
+  i_MACU_unit/mult_41/U1983/Z (AO222D1)                   0.13       1.97 f
+  i_MACU_unit/mult_41/U1982/Z (AO222D1)                   0.13       2.10 f
+  i_MACU_unit/mult_41/U1985/Z (AO222D1)                   0.13       2.23 f
+  i_MACU_unit/mult_41/U1984/Z (AO222D1)                   0.13       2.36 f
+  i_MACU_unit/mult_41/U1987/Z (AO222D1)                   0.13       2.49 f
+  i_MACU_unit/mult_41/U1986/Z (AO222D1)                   0.13       2.62 f
+  i_MACU_unit/mult_41/U1990/Z (AO222D1)                   0.13       2.75 f
+  i_MACU_unit/mult_41/U1989/Z (AO222D1)                   0.13       2.88 f
+  i_MACU_unit/mult_41/U1870/CO (FA1D1)                    0.06       2.94 f
+  i_MACU_unit/mult_41/U1744/CO (FA1D1)                    0.06       3.00 f
+  i_MACU_unit/mult_41/U1783/CO (FA1D1)                    0.06       3.05 f
+  i_MACU_unit/mult_41/U1743/CO (FA1D1)                    0.06       3.11 f
+  i_MACU_unit/mult_41/U1867/CO (FA1D1)                    0.06       3.17 f
+  i_MACU_unit/mult_41/U1742/CO (FA1D1)                    0.06       3.22 f
+  i_MACU_unit/mult_41/U1868/CO (FA1D1)                    0.06       3.28 f
+  i_MACU_unit/mult_41/U1741/CO (FA1D1)                    0.06       3.34 f
+  i_MACU_unit/mult_41/U1871/CO (FA1D1)                    0.06       3.40 f
+  i_MACU_unit/mult_41/U1740/CO (FA1D1)                    0.06       3.45 f
+  i_MACU_unit/mult_41/U1872/CO (FA1D1)                    0.06       3.51 f
+  i_MACU_unit/mult_41/U1739/CO (FA1D1)                    0.06       3.57 f
+  i_MACU_unit/mult_41/U1873/CO (FA1D1)                    0.06       3.63 f
+  i_MACU_unit/mult_41/U1738/CO (FA1D1)                    0.06       3.68 f
+  i_MACU_unit/mult_41/U1874/CO (FA1D1)                    0.06       3.74 f
+  i_MACU_unit/mult_41/U1737/CO (FA1D1)                    0.06       3.80 f
+  i_MACU_unit/mult_41/U1879/CO (FA1D1)                    0.06       3.85 f
+  i_MACU_unit/mult_41/U1736/CO (FA1D1)                    0.06       3.91 f
+  i_MACU_unit/mult_41/U1875/CO (FA1D1)                    0.06       3.97 f
+  i_MACU_unit/mult_41/U1735/CO (FA1D1)                    0.06       4.03 f
+  i_MACU_unit/mult_41/U1876/CO (FA1D1)                    0.06       4.08 f
+  i_MACU_unit/mult_41/U1734/CO (FA1D1)                    0.06       4.14 f
+  i_MACU_unit/mult_41/U1880/CO (FA1D1)                    0.06       4.20 f
+  i_MACU_unit/mult_41/U1733/CO (FA1D1)                    0.06       4.26 f
+  i_MACU_unit/mult_41/U1877/CO (FA1D1)                    0.06       4.31 f
+  i_MACU_unit/mult_41/U1881/CO (FA1D1)                    0.06       4.37 f
+  i_MACU_unit/mult_41/U1878/CO (FA1D1)                    0.06       4.43 f
+  i_MACU_unit/mult_41/U1869/CO (FA1D1)                    0.06       4.48 f
+  i_MACU_unit/mult_41/U1882/CO (FA1D1)                    0.06       4.54 f
+  i_MACU_unit/mult_41/U1884/CO (FA1D1)                    0.06       4.60 f
+  i_MACU_unit/mult_41/U1988/CO (FA1D1)                    0.05       4.65 f
+  i_MACU_unit/mult_41/U1762/Z (XOR3D2)                    0.11       4.77 r
+  i_MACU_unit/mult_41/product[51] (MAC_unit_DW_mult_tc_0)
+                                                          0.00       4.77 r
+  i_MACU_unit/add_42/A[31] (MAC_unit_DW01_add_0)          0.00       4.77 r
+  i_MACU_unit/add_42/U1_31/Z (XOR3D2)                     0.13       4.90 r
+  i_MACU_unit/add_42/SUM[31] (MAC_unit_DW01_add_0)        0.00       4.90 r
+  i_MACU_unit/y[31] (MAC_unit)                            0.00       4.90 r
+  act_x_reg[31]/D (EDFQD1)                                0.00       4.90 r
+  data arrival time                                                  4.90
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  act_x_reg[31]/CP (EDFQD1)                               0.00       5.00 r
+  library setup time                                     -0.07       4.93
+  data required time                                                 4.93
+  --------------------------------------------------------------------------
+  data required time                                                 4.93
+  data arrival time                                                 -4.90
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.04
+
+
+1

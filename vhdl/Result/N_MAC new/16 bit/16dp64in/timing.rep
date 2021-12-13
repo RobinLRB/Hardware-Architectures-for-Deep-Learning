@@ -1,0 +1,530 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : neuron_fully_parallel
+Version: J-2014.09
+Date   : Fri Nov 13 00:46:13 2020
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: in_w_reg[0][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: input_activation_function_reg[15]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  neuron_fully_parallel
+                     ZeroWireload          tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  in_w_reg[0][1]/CP (DFQD1)                               0.00 #     0.00 r
+  in_w_reg[0][1]/Q (DFQD1)                                0.20       0.20 r
+  i_MACU_unit_i_1/w[1] (MAC_unit_64)                      0.00       0.20 r
+  i_MACU_unit_i_1/mult_20/a[1] (MAC_unit_64_DW_mult_tc_0)
+                                                          0.00       0.20 r
+  i_MACU_unit_i_1/mult_20/U459/ZN (XNR2D1)                0.19       0.40 r
+  i_MACU_unit_i_1/mult_20/U460/ZN (ND2D1)                 0.11       0.50 f
+  i_MACU_unit_i_1/mult_20/U545/ZN (OAI22D0)               0.12       0.63 r
+  i_MACU_unit_i_1/mult_20/U141/S (CMPE22D1)               0.08       0.71 f
+  i_MACU_unit_i_1/mult_20/U512/Z (AO222D0)                0.18       0.89 f
+  i_MACU_unit_i_1/mult_20/U511/Z (AO222D0)                0.16       1.05 f
+  i_MACU_unit_i_1/mult_20/U510/Z (AO222D0)                0.16       1.21 f
+  i_MACU_unit_i_1/mult_20/U509/Z (AO222D0)                0.16       1.38 f
+  i_MACU_unit_i_1/mult_20/U508/Z (AO222D0)                0.16       1.54 f
+  i_MACU_unit_i_1/mult_20/U507/Z (AO222D0)                0.16       1.70 f
+  i_MACU_unit_i_1/mult_20/U506/Z (AO222D0)                0.17       1.87 f
+  i_MACU_unit_i_1/mult_20/U67/CO (CMPE32D1)               0.07       1.94 f
+  i_MACU_unit_i_1/mult_20/U66/CO (CMPE32D1)               0.06       2.00 f
+  i_MACU_unit_i_1/mult_20/U65/CO (CMPE32D1)               0.06       2.05 f
+  i_MACU_unit_i_1/mult_20/U64/CO (CMPE32D1)               0.06       2.11 f
+  i_MACU_unit_i_1/mult_20/U63/CO (CMPE32D1)               0.06       2.17 f
+  i_MACU_unit_i_1/mult_20/U62/CO (CMPE32D1)               0.06       2.23 f
+  i_MACU_unit_i_1/mult_20/U61/CO (CMPE32D1)               0.06       2.28 f
+  i_MACU_unit_i_1/mult_20/U60/CO (CMPE32D1)               0.06       2.34 f
+  i_MACU_unit_i_1/mult_20/U59/CO (CMPE32D1)               0.06       2.40 f
+  i_MACU_unit_i_1/mult_20/U58/CO (CMPE32D1)               0.06       2.46 f
+  i_MACU_unit_i_1/mult_20/U57/CO (CMPE32D1)               0.06       2.51 f
+  i_MACU_unit_i_1/mult_20/U56/CO (CMPE32D1)               0.06       2.57 f
+  i_MACU_unit_i_1/mult_20/U55/CO (CMPE32D1)               0.06       2.63 f
+  i_MACU_unit_i_1/mult_20/U54/CO (CMPE32D1)               0.06       2.68 f
+  i_MACU_unit_i_1/mult_20/U53/CO (CMPE32D1)               0.05       2.73 f
+  i_MACU_unit_i_1/mult_20/U500/ZN (XNR4D0)                0.14       2.87 r
+  i_MACU_unit_i_1/mult_20/U497/Z (XOR4D0)                 0.17       3.04 f
+  i_MACU_unit_i_1/mult_20/product[25] (MAC_unit_64_DW_mult_tc_0)
+                                                          0.00       3.04 f
+  i_MACU_unit_i_1/add_21/A[15] (MAC_unit_64_DW01_add_0)
+                                                          0.00       3.04 f
+  i_MACU_unit_i_1/add_21/U1_15/S (CMPE32D1)               0.11       3.15 f
+  i_MACU_unit_i_1/add_21/SUM[15] (MAC_unit_64_DW01_add_0)
+                                                          0.00       3.15 f
+  i_MACU_unit_i_1/y[15] (MAC_unit_64)                     0.00       3.15 f
+  i_MACU_unit_i_2/b[15] (MAC_unit_63)                     0.00       3.15 f
+  i_MACU_unit_i_2/add_21/B[15] (MAC_unit_63_DW01_add_0)
+                                                          0.00       3.15 f
+  i_MACU_unit_i_2/add_21/U1_15/S (CMPE32D1)               0.11       3.26 f
+  i_MACU_unit_i_2/add_21/SUM[15] (MAC_unit_63_DW01_add_0)
+                                                          0.00       3.26 f
+  i_MACU_unit_i_2/y[15] (MAC_unit_63)                     0.00       3.26 f
+  i_MACU_unit_i_3/b[15] (MAC_unit_62)                     0.00       3.26 f
+  i_MACU_unit_i_3/add_21/B[15] (MAC_unit_62_DW01_add_0)
+                                                          0.00       3.26 f
+  i_MACU_unit_i_3/add_21/U1_15/S (CMPE32D1)               0.11       3.38 f
+  i_MACU_unit_i_3/add_21/SUM[15] (MAC_unit_62_DW01_add_0)
+                                                          0.00       3.38 f
+  i_MACU_unit_i_3/y[15] (MAC_unit_62)                     0.00       3.38 f
+  i_MACU_unit_i_4/b[15] (MAC_unit_61)                     0.00       3.38 f
+  i_MACU_unit_i_4/add_21/B[15] (MAC_unit_61_DW01_add_0)
+                                                          0.00       3.38 f
+  i_MACU_unit_i_4/add_21/U1_15/S (CMPE32D1)               0.11       3.49 f
+  i_MACU_unit_i_4/add_21/SUM[15] (MAC_unit_61_DW01_add_0)
+                                                          0.00       3.49 f
+  i_MACU_unit_i_4/y[15] (MAC_unit_61)                     0.00       3.49 f
+  i_MACU_unit_i_5/b[15] (MAC_unit_60)                     0.00       3.49 f
+  i_MACU_unit_i_5/add_21/B[15] (MAC_unit_60_DW01_add_0)
+                                                          0.00       3.49 f
+  i_MACU_unit_i_5/add_21/U1_15/S (CMPE32D1)               0.11       3.60 f
+  i_MACU_unit_i_5/add_21/SUM[15] (MAC_unit_60_DW01_add_0)
+                                                          0.00       3.60 f
+  i_MACU_unit_i_5/y[15] (MAC_unit_60)                     0.00       3.60 f
+  i_MACU_unit_i_6/b[15] (MAC_unit_59)                     0.00       3.60 f
+  i_MACU_unit_i_6/add_21/B[15] (MAC_unit_59_DW01_add_0)
+                                                          0.00       3.60 f
+  i_MACU_unit_i_6/add_21/U1_15/S (CMPE32D1)               0.11       3.72 f
+  i_MACU_unit_i_6/add_21/SUM[15] (MAC_unit_59_DW01_add_0)
+                                                          0.00       3.72 f
+  i_MACU_unit_i_6/y[15] (MAC_unit_59)                     0.00       3.72 f
+  i_MACU_unit_i_7/b[15] (MAC_unit_58)                     0.00       3.72 f
+  i_MACU_unit_i_7/add_21/B[15] (MAC_unit_58_DW01_add_0)
+                                                          0.00       3.72 f
+  i_MACU_unit_i_7/add_21/U1_15/S (CMPE32D1)               0.11       3.83 f
+  i_MACU_unit_i_7/add_21/SUM[15] (MAC_unit_58_DW01_add_0)
+                                                          0.00       3.83 f
+  i_MACU_unit_i_7/y[15] (MAC_unit_58)                     0.00       3.83 f
+  i_MACU_unit_i_8/b[15] (MAC_unit_57)                     0.00       3.83 f
+  i_MACU_unit_i_8/add_21/B[15] (MAC_unit_57_DW01_add_0)
+                                                          0.00       3.83 f
+  i_MACU_unit_i_8/add_21/U1_15/S (CMPE32D1)               0.11       3.94 f
+  i_MACU_unit_i_8/add_21/SUM[15] (MAC_unit_57_DW01_add_0)
+                                                          0.00       3.94 f
+  i_MACU_unit_i_8/y[15] (MAC_unit_57)                     0.00       3.94 f
+  i_MACU_unit_i_9/b[15] (MAC_unit_56)                     0.00       3.94 f
+  i_MACU_unit_i_9/add_21/B[15] (MAC_unit_56_DW01_add_0)
+                                                          0.00       3.94 f
+  i_MACU_unit_i_9/add_21/U1_15/S (CMPE32D1)               0.11       4.06 f
+  i_MACU_unit_i_9/add_21/SUM[15] (MAC_unit_56_DW01_add_0)
+                                                          0.00       4.06 f
+  i_MACU_unit_i_9/y[15] (MAC_unit_56)                     0.00       4.06 f
+  i_MACU_unit_i_10/b[15] (MAC_unit_55)                    0.00       4.06 f
+  i_MACU_unit_i_10/add_21/B[15] (MAC_unit_55_DW01_add_0)
+                                                          0.00       4.06 f
+  i_MACU_unit_i_10/add_21/U1_15/S (CMPE32D1)              0.11       4.17 f
+  i_MACU_unit_i_10/add_21/SUM[15] (MAC_unit_55_DW01_add_0)
+                                                          0.00       4.17 f
+  i_MACU_unit_i_10/y[15] (MAC_unit_55)                    0.00       4.17 f
+  i_MACU_unit_i_11/b[15] (MAC_unit_54)                    0.00       4.17 f
+  i_MACU_unit_i_11/add_21/B[15] (MAC_unit_54_DW01_add_0)
+                                                          0.00       4.17 f
+  i_MACU_unit_i_11/add_21/U1_15/S (CMPE32D1)              0.11       4.28 f
+  i_MACU_unit_i_11/add_21/SUM[15] (MAC_unit_54_DW01_add_0)
+                                                          0.00       4.28 f
+  i_MACU_unit_i_11/y[15] (MAC_unit_54)                    0.00       4.28 f
+  i_MACU_unit_i_12/b[15] (MAC_unit_53)                    0.00       4.28 f
+  i_MACU_unit_i_12/add_21/B[15] (MAC_unit_53_DW01_add_0)
+                                                          0.00       4.28 f
+  i_MACU_unit_i_12/add_21/U1_15/S (CMPE32D1)              0.11       4.40 f
+  i_MACU_unit_i_12/add_21/SUM[15] (MAC_unit_53_DW01_add_0)
+                                                          0.00       4.40 f
+  i_MACU_unit_i_12/y[15] (MAC_unit_53)                    0.00       4.40 f
+  i_MACU_unit_i_13/b[15] (MAC_unit_52)                    0.00       4.40 f
+  i_MACU_unit_i_13/add_21/B[15] (MAC_unit_52_DW01_add_0)
+                                                          0.00       4.40 f
+  i_MACU_unit_i_13/add_21/U1_15/S (CMPE32D1)              0.11       4.51 f
+  i_MACU_unit_i_13/add_21/SUM[15] (MAC_unit_52_DW01_add_0)
+                                                          0.00       4.51 f
+  i_MACU_unit_i_13/y[15] (MAC_unit_52)                    0.00       4.51 f
+  i_MACU_unit_i_14/b[15] (MAC_unit_51)                    0.00       4.51 f
+  i_MACU_unit_i_14/add_21/B[15] (MAC_unit_51_DW01_add_0)
+                                                          0.00       4.51 f
+  i_MACU_unit_i_14/add_21/U1_15/S (CMPE32D1)              0.11       4.62 f
+  i_MACU_unit_i_14/add_21/SUM[15] (MAC_unit_51_DW01_add_0)
+                                                          0.00       4.62 f
+  i_MACU_unit_i_14/y[15] (MAC_unit_51)                    0.00       4.62 f
+  i_MACU_unit_i_15/b[15] (MAC_unit_50)                    0.00       4.62 f
+  i_MACU_unit_i_15/add_21/B[15] (MAC_unit_50_DW01_add_0)
+                                                          0.00       4.62 f
+  i_MACU_unit_i_15/add_21/U1_15/S (CMPE32D1)              0.11       4.74 f
+  i_MACU_unit_i_15/add_21/SUM[15] (MAC_unit_50_DW01_add_0)
+                                                          0.00       4.74 f
+  i_MACU_unit_i_15/y[15] (MAC_unit_50)                    0.00       4.74 f
+  i_MACU_unit_i_16/b[15] (MAC_unit_49)                    0.00       4.74 f
+  i_MACU_unit_i_16/add_21/B[15] (MAC_unit_49_DW01_add_0)
+                                                          0.00       4.74 f
+  i_MACU_unit_i_16/add_21/U1_15/S (CMPE32D1)              0.11       4.85 f
+  i_MACU_unit_i_16/add_21/SUM[15] (MAC_unit_49_DW01_add_0)
+                                                          0.00       4.85 f
+  i_MACU_unit_i_16/y[15] (MAC_unit_49)                    0.00       4.85 f
+  i_MACU_unit_i_17/b[15] (MAC_unit_48)                    0.00       4.85 f
+  i_MACU_unit_i_17/add_21/B[15] (MAC_unit_48_DW01_add_0)
+                                                          0.00       4.85 f
+  i_MACU_unit_i_17/add_21/U1_15/S (CMPE32D1)              0.11       4.96 f
+  i_MACU_unit_i_17/add_21/SUM[15] (MAC_unit_48_DW01_add_0)
+                                                          0.00       4.96 f
+  i_MACU_unit_i_17/y[15] (MAC_unit_48)                    0.00       4.96 f
+  i_MACU_unit_i_18/b[15] (MAC_unit_47)                    0.00       4.96 f
+  i_MACU_unit_i_18/add_21/B[15] (MAC_unit_47_DW01_add_0)
+                                                          0.00       4.96 f
+  i_MACU_unit_i_18/add_21/U1_15/S (CMPE32D1)              0.11       5.08 f
+  i_MACU_unit_i_18/add_21/SUM[15] (MAC_unit_47_DW01_add_0)
+                                                          0.00       5.08 f
+  i_MACU_unit_i_18/y[15] (MAC_unit_47)                    0.00       5.08 f
+  i_MACU_unit_i_19/b[15] (MAC_unit_46)                    0.00       5.08 f
+  i_MACU_unit_i_19/add_21/B[15] (MAC_unit_46_DW01_add_0)
+                                                          0.00       5.08 f
+  i_MACU_unit_i_19/add_21/U1_15/S (CMPE32D1)              0.11       5.19 f
+  i_MACU_unit_i_19/add_21/SUM[15] (MAC_unit_46_DW01_add_0)
+                                                          0.00       5.19 f
+  i_MACU_unit_i_19/y[15] (MAC_unit_46)                    0.00       5.19 f
+  i_MACU_unit_i_20/b[15] (MAC_unit_45)                    0.00       5.19 f
+  i_MACU_unit_i_20/add_21/B[15] (MAC_unit_45_DW01_add_0)
+                                                          0.00       5.19 f
+  i_MACU_unit_i_20/add_21/U1_15/S (CMPE32D1)              0.11       5.30 f
+  i_MACU_unit_i_20/add_21/SUM[15] (MAC_unit_45_DW01_add_0)
+                                                          0.00       5.30 f
+  i_MACU_unit_i_20/y[15] (MAC_unit_45)                    0.00       5.30 f
+  i_MACU_unit_i_21/b[15] (MAC_unit_44)                    0.00       5.30 f
+  i_MACU_unit_i_21/add_21/B[15] (MAC_unit_44_DW01_add_0)
+                                                          0.00       5.30 f
+  i_MACU_unit_i_21/add_21/U1_15/S (CMPE32D1)              0.11       5.42 f
+  i_MACU_unit_i_21/add_21/SUM[15] (MAC_unit_44_DW01_add_0)
+                                                          0.00       5.42 f
+  i_MACU_unit_i_21/y[15] (MAC_unit_44)                    0.00       5.42 f
+  i_MACU_unit_i_22/b[15] (MAC_unit_43)                    0.00       5.42 f
+  i_MACU_unit_i_22/add_21/B[15] (MAC_unit_43_DW01_add_0)
+                                                          0.00       5.42 f
+  i_MACU_unit_i_22/add_21/U1_15/S (CMPE32D1)              0.11       5.53 f
+  i_MACU_unit_i_22/add_21/SUM[15] (MAC_unit_43_DW01_add_0)
+                                                          0.00       5.53 f
+  i_MACU_unit_i_22/y[15] (MAC_unit_43)                    0.00       5.53 f
+  i_MACU_unit_i_23/b[15] (MAC_unit_42)                    0.00       5.53 f
+  i_MACU_unit_i_23/add_21/B[15] (MAC_unit_42_DW01_add_0)
+                                                          0.00       5.53 f
+  i_MACU_unit_i_23/add_21/U1_15/S (CMPE32D1)              0.11       5.64 f
+  i_MACU_unit_i_23/add_21/SUM[15] (MAC_unit_42_DW01_add_0)
+                                                          0.00       5.64 f
+  i_MACU_unit_i_23/y[15] (MAC_unit_42)                    0.00       5.64 f
+  i_MACU_unit_i_24/b[15] (MAC_unit_41)                    0.00       5.64 f
+  i_MACU_unit_i_24/add_21/B[15] (MAC_unit_41_DW01_add_0)
+                                                          0.00       5.64 f
+  i_MACU_unit_i_24/add_21/U1_15/S (CMPE32D1)              0.11       5.76 f
+  i_MACU_unit_i_24/add_21/SUM[15] (MAC_unit_41_DW01_add_0)
+                                                          0.00       5.76 f
+  i_MACU_unit_i_24/y[15] (MAC_unit_41)                    0.00       5.76 f
+  i_MACU_unit_i_25/b[15] (MAC_unit_40)                    0.00       5.76 f
+  i_MACU_unit_i_25/add_21/B[15] (MAC_unit_40_DW01_add_0)
+                                                          0.00       5.76 f
+  i_MACU_unit_i_25/add_21/U1_15/S (CMPE32D1)              0.11       5.87 f
+  i_MACU_unit_i_25/add_21/SUM[15] (MAC_unit_40_DW01_add_0)
+                                                          0.00       5.87 f
+  i_MACU_unit_i_25/y[15] (MAC_unit_40)                    0.00       5.87 f
+  i_MACU_unit_i_26/b[15] (MAC_unit_39)                    0.00       5.87 f
+  i_MACU_unit_i_26/add_21/B[15] (MAC_unit_39_DW01_add_0)
+                                                          0.00       5.87 f
+  i_MACU_unit_i_26/add_21/U1_15/S (CMPE32D1)              0.11       5.98 f
+  i_MACU_unit_i_26/add_21/SUM[15] (MAC_unit_39_DW01_add_0)
+                                                          0.00       5.98 f
+  i_MACU_unit_i_26/y[15] (MAC_unit_39)                    0.00       5.98 f
+  i_MACU_unit_i_27/b[15] (MAC_unit_38)                    0.00       5.98 f
+  i_MACU_unit_i_27/add_21/B[15] (MAC_unit_38_DW01_add_0)
+                                                          0.00       5.98 f
+  i_MACU_unit_i_27/add_21/U1_15/S (CMPE32D1)              0.11       6.10 f
+  i_MACU_unit_i_27/add_21/SUM[15] (MAC_unit_38_DW01_add_0)
+                                                          0.00       6.10 f
+  i_MACU_unit_i_27/y[15] (MAC_unit_38)                    0.00       6.10 f
+  i_MACU_unit_i_28/b[15] (MAC_unit_37)                    0.00       6.10 f
+  i_MACU_unit_i_28/add_21/B[15] (MAC_unit_37_DW01_add_0)
+                                                          0.00       6.10 f
+  i_MACU_unit_i_28/add_21/U1_15/S (CMPE32D1)              0.11       6.21 f
+  i_MACU_unit_i_28/add_21/SUM[15] (MAC_unit_37_DW01_add_0)
+                                                          0.00       6.21 f
+  i_MACU_unit_i_28/y[15] (MAC_unit_37)                    0.00       6.21 f
+  i_MACU_unit_i_29/b[15] (MAC_unit_36)                    0.00       6.21 f
+  i_MACU_unit_i_29/add_21/B[15] (MAC_unit_36_DW01_add_0)
+                                                          0.00       6.21 f
+  i_MACU_unit_i_29/add_21/U1_15/S (CMPE32D1)              0.11       6.32 f
+  i_MACU_unit_i_29/add_21/SUM[15] (MAC_unit_36_DW01_add_0)
+                                                          0.00       6.32 f
+  i_MACU_unit_i_29/y[15] (MAC_unit_36)                    0.00       6.32 f
+  i_MACU_unit_i_30/b[15] (MAC_unit_35)                    0.00       6.32 f
+  i_MACU_unit_i_30/add_21/B[15] (MAC_unit_35_DW01_add_0)
+                                                          0.00       6.32 f
+  i_MACU_unit_i_30/add_21/U1_15/S (CMPE32D1)              0.11       6.44 f
+  i_MACU_unit_i_30/add_21/SUM[15] (MAC_unit_35_DW01_add_0)
+                                                          0.00       6.44 f
+  i_MACU_unit_i_30/y[15] (MAC_unit_35)                    0.00       6.44 f
+  i_MACU_unit_i_31/b[15] (MAC_unit_34)                    0.00       6.44 f
+  i_MACU_unit_i_31/add_21/B[15] (MAC_unit_34_DW01_add_0)
+                                                          0.00       6.44 f
+  i_MACU_unit_i_31/add_21/U1_15/S (CMPE32D1)              0.11       6.55 f
+  i_MACU_unit_i_31/add_21/SUM[15] (MAC_unit_34_DW01_add_0)
+                                                          0.00       6.55 f
+  i_MACU_unit_i_31/y[15] (MAC_unit_34)                    0.00       6.55 f
+  i_MACU_unit_i_32/b[15] (MAC_unit_33)                    0.00       6.55 f
+  i_MACU_unit_i_32/add_21/B[15] (MAC_unit_33_DW01_add_0)
+                                                          0.00       6.55 f
+  i_MACU_unit_i_32/add_21/U1_15/S (CMPE32D1)              0.11       6.66 f
+  i_MACU_unit_i_32/add_21/SUM[15] (MAC_unit_33_DW01_add_0)
+                                                          0.00       6.66 f
+  i_MACU_unit_i_32/y[15] (MAC_unit_33)                    0.00       6.66 f
+  i_MACU_unit_i_33/b[15] (MAC_unit_32)                    0.00       6.66 f
+  i_MACU_unit_i_33/add_21/B[15] (MAC_unit_32_DW01_add_0)
+                                                          0.00       6.66 f
+  i_MACU_unit_i_33/add_21/U1_15/S (CMPE32D1)              0.11       6.77 f
+  i_MACU_unit_i_33/add_21/SUM[15] (MAC_unit_32_DW01_add_0)
+                                                          0.00       6.77 f
+  i_MACU_unit_i_33/y[15] (MAC_unit_32)                    0.00       6.77 f
+  i_MACU_unit_i_34/b[15] (MAC_unit_31)                    0.00       6.77 f
+  i_MACU_unit_i_34/add_21/B[15] (MAC_unit_31_DW01_add_0)
+                                                          0.00       6.77 f
+  i_MACU_unit_i_34/add_21/U1_15/S (CMPE32D1)              0.11       6.89 f
+  i_MACU_unit_i_34/add_21/SUM[15] (MAC_unit_31_DW01_add_0)
+                                                          0.00       6.89 f
+  i_MACU_unit_i_34/y[15] (MAC_unit_31)                    0.00       6.89 f
+  i_MACU_unit_i_35/b[15] (MAC_unit_30)                    0.00       6.89 f
+  i_MACU_unit_i_35/add_21/B[15] (MAC_unit_30_DW01_add_0)
+                                                          0.00       6.89 f
+  i_MACU_unit_i_35/add_21/U1_15/S (CMPE32D1)              0.11       7.00 f
+  i_MACU_unit_i_35/add_21/SUM[15] (MAC_unit_30_DW01_add_0)
+                                                          0.00       7.00 f
+  i_MACU_unit_i_35/y[15] (MAC_unit_30)                    0.00       7.00 f
+  i_MACU_unit_i_36/b[15] (MAC_unit_29)                    0.00       7.00 f
+  i_MACU_unit_i_36/add_21/B[15] (MAC_unit_29_DW01_add_0)
+                                                          0.00       7.00 f
+  i_MACU_unit_i_36/add_21/U1_15/S (CMPE32D1)              0.11       7.11 f
+  i_MACU_unit_i_36/add_21/SUM[15] (MAC_unit_29_DW01_add_0)
+                                                          0.00       7.11 f
+  i_MACU_unit_i_36/y[15] (MAC_unit_29)                    0.00       7.11 f
+  i_MACU_unit_i_37/b[15] (MAC_unit_28)                    0.00       7.11 f
+  i_MACU_unit_i_37/add_21/B[15] (MAC_unit_28_DW01_add_0)
+                                                          0.00       7.11 f
+  i_MACU_unit_i_37/add_21/U1_15/S (CMPE32D1)              0.11       7.23 f
+  i_MACU_unit_i_37/add_21/SUM[15] (MAC_unit_28_DW01_add_0)
+                                                          0.00       7.23 f
+  i_MACU_unit_i_37/y[15] (MAC_unit_28)                    0.00       7.23 f
+  i_MACU_unit_i_38/b[15] (MAC_unit_27)                    0.00       7.23 f
+  i_MACU_unit_i_38/add_21/B[15] (MAC_unit_27_DW01_add_0)
+                                                          0.00       7.23 f
+  i_MACU_unit_i_38/add_21/U1_15/S (CMPE32D1)              0.11       7.34 f
+  i_MACU_unit_i_38/add_21/SUM[15] (MAC_unit_27_DW01_add_0)
+                                                          0.00       7.34 f
+  i_MACU_unit_i_38/y[15] (MAC_unit_27)                    0.00       7.34 f
+  i_MACU_unit_i_39/b[15] (MAC_unit_26)                    0.00       7.34 f
+  i_MACU_unit_i_39/add_21/B[15] (MAC_unit_26_DW01_add_0)
+                                                          0.00       7.34 f
+  i_MACU_unit_i_39/add_21/U1_15/S (CMPE32D1)              0.11       7.45 f
+  i_MACU_unit_i_39/add_21/SUM[15] (MAC_unit_26_DW01_add_0)
+                                                          0.00       7.45 f
+  i_MACU_unit_i_39/y[15] (MAC_unit_26)                    0.00       7.45 f
+  i_MACU_unit_i_40/b[15] (MAC_unit_25)                    0.00       7.45 f
+  i_MACU_unit_i_40/add_21/B[15] (MAC_unit_25_DW01_add_0)
+                                                          0.00       7.45 f
+  i_MACU_unit_i_40/add_21/U1_15/S (CMPE32D1)              0.11       7.57 f
+  i_MACU_unit_i_40/add_21/SUM[15] (MAC_unit_25_DW01_add_0)
+                                                          0.00       7.57 f
+  i_MACU_unit_i_40/y[15] (MAC_unit_25)                    0.00       7.57 f
+  i_MACU_unit_i_41/b[15] (MAC_unit_24)                    0.00       7.57 f
+  i_MACU_unit_i_41/add_21/B[15] (MAC_unit_24_DW01_add_0)
+                                                          0.00       7.57 f
+  i_MACU_unit_i_41/add_21/U1_15/S (CMPE32D1)              0.11       7.68 f
+  i_MACU_unit_i_41/add_21/SUM[15] (MAC_unit_24_DW01_add_0)
+                                                          0.00       7.68 f
+  i_MACU_unit_i_41/y[15] (MAC_unit_24)                    0.00       7.68 f
+  i_MACU_unit_i_42/b[15] (MAC_unit_23)                    0.00       7.68 f
+  i_MACU_unit_i_42/add_21/B[15] (MAC_unit_23_DW01_add_0)
+                                                          0.00       7.68 f
+  i_MACU_unit_i_42/add_21/U1_15/S (CMPE32D1)              0.11       7.79 f
+  i_MACU_unit_i_42/add_21/SUM[15] (MAC_unit_23_DW01_add_0)
+                                                          0.00       7.79 f
+  i_MACU_unit_i_42/y[15] (MAC_unit_23)                    0.00       7.79 f
+  i_MACU_unit_i_43/b[15] (MAC_unit_22)                    0.00       7.79 f
+  i_MACU_unit_i_43/add_21/B[15] (MAC_unit_22_DW01_add_0)
+                                                          0.00       7.79 f
+  i_MACU_unit_i_43/add_21/U1_15/S (CMPE32D1)              0.11       7.91 f
+  i_MACU_unit_i_43/add_21/SUM[15] (MAC_unit_22_DW01_add_0)
+                                                          0.00       7.91 f
+  i_MACU_unit_i_43/y[15] (MAC_unit_22)                    0.00       7.91 f
+  i_MACU_unit_i_44/b[15] (MAC_unit_21)                    0.00       7.91 f
+  i_MACU_unit_i_44/add_21/B[15] (MAC_unit_21_DW01_add_0)
+                                                          0.00       7.91 f
+  i_MACU_unit_i_44/add_21/U1_15/S (CMPE32D1)              0.11       8.02 f
+  i_MACU_unit_i_44/add_21/SUM[15] (MAC_unit_21_DW01_add_0)
+                                                          0.00       8.02 f
+  i_MACU_unit_i_44/y[15] (MAC_unit_21)                    0.00       8.02 f
+  i_MACU_unit_i_45/b[15] (MAC_unit_20)                    0.00       8.02 f
+  i_MACU_unit_i_45/add_21/B[15] (MAC_unit_20_DW01_add_0)
+                                                          0.00       8.02 f
+  i_MACU_unit_i_45/add_21/U1_15/S (CMPE32D1)              0.11       8.13 f
+  i_MACU_unit_i_45/add_21/SUM[15] (MAC_unit_20_DW01_add_0)
+                                                          0.00       8.13 f
+  i_MACU_unit_i_45/y[15] (MAC_unit_20)                    0.00       8.13 f
+  i_MACU_unit_i_46/b[15] (MAC_unit_19)                    0.00       8.13 f
+  i_MACU_unit_i_46/add_21/B[15] (MAC_unit_19_DW01_add_0)
+                                                          0.00       8.13 f
+  i_MACU_unit_i_46/add_21/U1_15/S (CMPE32D1)              0.11       8.25 f
+  i_MACU_unit_i_46/add_21/SUM[15] (MAC_unit_19_DW01_add_0)
+                                                          0.00       8.25 f
+  i_MACU_unit_i_46/y[15] (MAC_unit_19)                    0.00       8.25 f
+  i_MACU_unit_i_47/b[15] (MAC_unit_18)                    0.00       8.25 f
+  i_MACU_unit_i_47/add_21/B[15] (MAC_unit_18_DW01_add_0)
+                                                          0.00       8.25 f
+  i_MACU_unit_i_47/add_21/U1_15/S (CMPE32D1)              0.11       8.36 f
+  i_MACU_unit_i_47/add_21/SUM[15] (MAC_unit_18_DW01_add_0)
+                                                          0.00       8.36 f
+  i_MACU_unit_i_47/y[15] (MAC_unit_18)                    0.00       8.36 f
+  i_MACU_unit_i_48/b[15] (MAC_unit_17)                    0.00       8.36 f
+  i_MACU_unit_i_48/add_21/B[15] (MAC_unit_17_DW01_add_0)
+                                                          0.00       8.36 f
+  i_MACU_unit_i_48/add_21/U1_15/S (CMPE32D1)              0.11       8.47 f
+  i_MACU_unit_i_48/add_21/SUM[15] (MAC_unit_17_DW01_add_0)
+                                                          0.00       8.47 f
+  i_MACU_unit_i_48/y[15] (MAC_unit_17)                    0.00       8.47 f
+  i_MACU_unit_i_49/b[15] (MAC_unit_16)                    0.00       8.47 f
+  i_MACU_unit_i_49/add_21/B[15] (MAC_unit_16_DW01_add_0)
+                                                          0.00       8.47 f
+  i_MACU_unit_i_49/add_21/U1_15/S (CMPE32D1)              0.11       8.59 f
+  i_MACU_unit_i_49/add_21/SUM[15] (MAC_unit_16_DW01_add_0)
+                                                          0.00       8.59 f
+  i_MACU_unit_i_49/y[15] (MAC_unit_16)                    0.00       8.59 f
+  i_MACU_unit_i_50/b[15] (MAC_unit_15)                    0.00       8.59 f
+  i_MACU_unit_i_50/add_21/B[15] (MAC_unit_15_DW01_add_0)
+                                                          0.00       8.59 f
+  i_MACU_unit_i_50/add_21/U1_15/S (CMPE32D1)              0.11       8.70 f
+  i_MACU_unit_i_50/add_21/SUM[15] (MAC_unit_15_DW01_add_0)
+                                                          0.00       8.70 f
+  i_MACU_unit_i_50/y[15] (MAC_unit_15)                    0.00       8.70 f
+  i_MACU_unit_i_51/b[15] (MAC_unit_14)                    0.00       8.70 f
+  i_MACU_unit_i_51/add_21/B[15] (MAC_unit_14_DW01_add_0)
+                                                          0.00       8.70 f
+  i_MACU_unit_i_51/add_21/U1_15/S (CMPE32D1)              0.11       8.81 f
+  i_MACU_unit_i_51/add_21/SUM[15] (MAC_unit_14_DW01_add_0)
+                                                          0.00       8.81 f
+  i_MACU_unit_i_51/y[15] (MAC_unit_14)                    0.00       8.81 f
+  i_MACU_unit_i_52/b[15] (MAC_unit_13)                    0.00       8.81 f
+  i_MACU_unit_i_52/add_21/B[15] (MAC_unit_13_DW01_add_0)
+                                                          0.00       8.81 f
+  i_MACU_unit_i_52/add_21/U1_15/S (CMPE32D1)              0.11       8.93 f
+  i_MACU_unit_i_52/add_21/SUM[15] (MAC_unit_13_DW01_add_0)
+                                                          0.00       8.93 f
+  i_MACU_unit_i_52/y[15] (MAC_unit_13)                    0.00       8.93 f
+  i_MACU_unit_i_53/b[15] (MAC_unit_12)                    0.00       8.93 f
+  i_MACU_unit_i_53/add_21/B[15] (MAC_unit_12_DW01_add_0)
+                                                          0.00       8.93 f
+  i_MACU_unit_i_53/add_21/U1_15/S (CMPE32D1)              0.11       9.04 f
+  i_MACU_unit_i_53/add_21/SUM[15] (MAC_unit_12_DW01_add_0)
+                                                          0.00       9.04 f
+  i_MACU_unit_i_53/y[15] (MAC_unit_12)                    0.00       9.04 f
+  i_MACU_unit_i_54/b[15] (MAC_unit_11)                    0.00       9.04 f
+  i_MACU_unit_i_54/add_21/B[15] (MAC_unit_11_DW01_add_0)
+                                                          0.00       9.04 f
+  i_MACU_unit_i_54/add_21/U1_15/S (CMPE32D1)              0.11       9.15 f
+  i_MACU_unit_i_54/add_21/SUM[15] (MAC_unit_11_DW01_add_0)
+                                                          0.00       9.15 f
+  i_MACU_unit_i_54/y[15] (MAC_unit_11)                    0.00       9.15 f
+  i_MACU_unit_i_55/b[15] (MAC_unit_10)                    0.00       9.15 f
+  i_MACU_unit_i_55/add_21/B[15] (MAC_unit_10_DW01_add_0)
+                                                          0.00       9.15 f
+  i_MACU_unit_i_55/add_21/U1_15/S (CMPE32D1)              0.11       9.27 f
+  i_MACU_unit_i_55/add_21/SUM[15] (MAC_unit_10_DW01_add_0)
+                                                          0.00       9.27 f
+  i_MACU_unit_i_55/y[15] (MAC_unit_10)                    0.00       9.27 f
+  i_MACU_unit_i_56/b[15] (MAC_unit_9)                     0.00       9.27 f
+  i_MACU_unit_i_56/add_21/B[15] (MAC_unit_9_DW01_add_0)
+                                                          0.00       9.27 f
+  i_MACU_unit_i_56/add_21/U1_15/S (CMPE32D1)              0.11       9.38 f
+  i_MACU_unit_i_56/add_21/SUM[15] (MAC_unit_9_DW01_add_0)
+                                                          0.00       9.38 f
+  i_MACU_unit_i_56/y[15] (MAC_unit_9)                     0.00       9.38 f
+  i_MACU_unit_i_57/b[15] (MAC_unit_8)                     0.00       9.38 f
+  i_MACU_unit_i_57/add_21/B[15] (MAC_unit_8_DW01_add_0)
+                                                          0.00       9.38 f
+  i_MACU_unit_i_57/add_21/U1_15/S (CMPE32D1)              0.11       9.49 f
+  i_MACU_unit_i_57/add_21/SUM[15] (MAC_unit_8_DW01_add_0)
+                                                          0.00       9.49 f
+  i_MACU_unit_i_57/y[15] (MAC_unit_8)                     0.00       9.49 f
+  i_MACU_unit_i_58/b[15] (MAC_unit_7)                     0.00       9.49 f
+  i_MACU_unit_i_58/add_21/B[15] (MAC_unit_7_DW01_add_0)
+                                                          0.00       9.49 f
+  i_MACU_unit_i_58/add_21/U1_15/S (CMPE32D1)              0.11       9.61 f
+  i_MACU_unit_i_58/add_21/SUM[15] (MAC_unit_7_DW01_add_0)
+                                                          0.00       9.61 f
+  i_MACU_unit_i_58/y[15] (MAC_unit_7)                     0.00       9.61 f
+  i_MACU_unit_i_59/b[15] (MAC_unit_6)                     0.00       9.61 f
+  i_MACU_unit_i_59/add_21/B[15] (MAC_unit_6_DW01_add_0)
+                                                          0.00       9.61 f
+  i_MACU_unit_i_59/add_21/U1_15/S (CMPE32D1)              0.11       9.72 f
+  i_MACU_unit_i_59/add_21/SUM[15] (MAC_unit_6_DW01_add_0)
+                                                          0.00       9.72 f
+  i_MACU_unit_i_59/y[15] (MAC_unit_6)                     0.00       9.72 f
+  i_MACU_unit_i_60/b[15] (MAC_unit_5)                     0.00       9.72 f
+  i_MACU_unit_i_60/add_21/B[15] (MAC_unit_5_DW01_add_0)
+                                                          0.00       9.72 f
+  i_MACU_unit_i_60/add_21/U1_15/S (CMPE32D1)              0.11       9.83 f
+  i_MACU_unit_i_60/add_21/SUM[15] (MAC_unit_5_DW01_add_0)
+                                                          0.00       9.83 f
+  i_MACU_unit_i_60/y[15] (MAC_unit_5)                     0.00       9.83 f
+  i_MACU_unit_i_61/b[15] (MAC_unit_4)                     0.00       9.83 f
+  i_MACU_unit_i_61/add_21/B[15] (MAC_unit_4_DW01_add_0)
+                                                          0.00       9.83 f
+  i_MACU_unit_i_61/add_21/U1_15/S (CMPE32D1)              0.11       9.95 f
+  i_MACU_unit_i_61/add_21/SUM[15] (MAC_unit_4_DW01_add_0)
+                                                          0.00       9.95 f
+  i_MACU_unit_i_61/y[15] (MAC_unit_4)                     0.00       9.95 f
+  i_MACU_unit_i_62/b[15] (MAC_unit_3)                     0.00       9.95 f
+  i_MACU_unit_i_62/add_21/B[15] (MAC_unit_3_DW01_add_0)
+                                                          0.00       9.95 f
+  i_MACU_unit_i_62/add_21/U1_15/S (CMPE32D1)              0.11      10.06 f
+  i_MACU_unit_i_62/add_21/SUM[15] (MAC_unit_3_DW01_add_0)
+                                                          0.00      10.06 f
+  i_MACU_unit_i_62/y[15] (MAC_unit_3)                     0.00      10.06 f
+  i_MACU_unit_i_63/b[15] (MAC_unit_2)                     0.00      10.06 f
+  i_MACU_unit_i_63/add_21/B[15] (MAC_unit_2_DW01_add_0)
+                                                          0.00      10.06 f
+  i_MACU_unit_i_63/add_21/U1_15/S (CMPE32D1)              0.11      10.17 f
+  i_MACU_unit_i_63/add_21/SUM[15] (MAC_unit_2_DW01_add_0)
+                                                          0.00      10.17 f
+  i_MACU_unit_i_63/y[15] (MAC_unit_2)                     0.00      10.17 f
+  i_MACU_unit_last/b[15] (MAC_unit_1)                     0.00      10.17 f
+  i_MACU_unit_last/add_21/B[15] (MAC_unit_1_DW01_add_0)
+                                                          0.00      10.17 f
+  i_MACU_unit_last/add_21/U1_15/S (CMPE32D1)              0.11      10.28 f
+  i_MACU_unit_last/add_21/SUM[15] (MAC_unit_1_DW01_add_0)
+                                                          0.00      10.28 f
+  i_MACU_unit_last/y[15] (MAC_unit_1)                     0.00      10.28 f
+  input_activation_function_reg[15]/D (DFQD1)             0.00      10.28 f
+  data arrival time                                                 10.28
+
+  clock clk (rise edge)                                  40.00      40.00
+  clock network delay (ideal)                             0.00      40.00
+  input_activation_function_reg[15]/CP (DFQD1)            0.00      40.00 r
+  library setup time                                     -0.03      39.97
+  data required time                                                39.97
+  --------------------------------------------------------------------------
+  data required time                                                39.97
+  data arrival time                                                -10.28
+  --------------------------------------------------------------------------
+  slack (MET)                                                       29.69
+
+
+1

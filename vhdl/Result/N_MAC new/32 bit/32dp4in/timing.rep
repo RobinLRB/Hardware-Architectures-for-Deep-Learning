@@ -1,0 +1,136 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : neuron_fully_parallel
+Version: J-2014.09
+Date   : Fri Nov 13 00:55:33 2020
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: in_w_reg[0][2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: input_activation_function_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  neuron_fully_parallel
+                     ZeroWireload          tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  in_w_reg[0][2]/CP (DFQD1)                               0.00       0.00 r
+  in_w_reg[0][2]/Q (DFQD1)                                0.20       0.20 r
+  i_MACU_unit_i_1/w[2] (MAC_unit_4)                       0.00       0.20 r
+  i_MACU_unit_i_1/mult_20/a[2] (MAC_unit_4_DW_mult_tc_0)
+                                                          0.00       0.20 r
+  i_MACU_unit_i_1/mult_20/U1884/ZN (INVD1)                0.02       0.22 f
+  i_MACU_unit_i_1/mult_20/U1796/Z (BUFFD0)                0.10       0.31 f
+  i_MACU_unit_i_1/mult_20/U2433/ZN (XNR2D0)               0.10       0.42 f
+  i_MACU_unit_i_1/mult_20/U2432/ZN (IND3D0)               0.27       0.69 r
+  i_MACU_unit_i_1/mult_20/U2360/ZN (OAI22D0)              0.07       0.75 f
+  i_MACU_unit_i_1/mult_20/U2359/ZN (AOI221D0)             0.17       0.92 r
+  i_MACU_unit_i_1/mult_20/U2358/ZN (XNR2D0)               0.12       1.03 f
+  i_MACU_unit_i_1/mult_20/U2357/ZN (AOI222D0)             0.18       1.21 r
+  i_MACU_unit_i_1/mult_20/U2353/ZN (OAI222D0)             0.10       1.31 f
+  i_MACU_unit_i_1/mult_20/U2349/ZN (AOI222D0)             0.17       1.48 r
+  i_MACU_unit_i_1/mult_20/U2345/ZN (OAI222D0)             0.10       1.58 f
+  i_MACU_unit_i_1/mult_20/U2341/ZN (AOI222D0)             0.17       1.75 r
+  i_MACU_unit_i_1/mult_20/U2337/ZN (OAI222D0)             0.10       1.85 f
+  i_MACU_unit_i_1/mult_20/U2333/ZN (AOI222D0)             0.17       2.02 r
+  i_MACU_unit_i_1/mult_20/U2329/ZN (OAI222D0)             0.10       2.11 f
+  i_MACU_unit_i_1/mult_20/U2328/Z (AO222D0)               0.17       2.28 f
+  i_MACU_unit_i_1/mult_20/U2327/Z (AO222D0)               0.16       2.44 f
+  i_MACU_unit_i_1/mult_20/U2326/Z (AO222D0)               0.16       2.61 f
+  i_MACU_unit_i_1/mult_20/U2325/Z (AO222D0)               0.16       2.77 f
+  i_MACU_unit_i_1/mult_20/U2324/Z (AO222D0)               0.16       2.93 f
+  i_MACU_unit_i_1/mult_20/U2323/Z (AO222D0)               0.16       3.09 f
+  i_MACU_unit_i_1/mult_20/U2322/Z (AO222D0)               0.16       3.26 f
+  i_MACU_unit_i_1/mult_20/U2321/Z (AO222D0)               0.16       3.42 f
+  i_MACU_unit_i_1/mult_20/U2320/Z (AO222D0)               0.17       3.59 f
+  i_MACU_unit_i_1/mult_20/U275/CO (CMPE32D1)              0.07       3.66 f
+  i_MACU_unit_i_1/mult_20/U274/CO (CMPE32D1)              0.06       3.71 f
+  i_MACU_unit_i_1/mult_20/U273/CO (CMPE32D1)              0.06       3.77 f
+  i_MACU_unit_i_1/mult_20/U272/CO (CMPE32D1)              0.06       3.83 f
+  i_MACU_unit_i_1/mult_20/U271/CO (CMPE32D1)              0.06       3.89 f
+  i_MACU_unit_i_1/mult_20/U270/CO (CMPE32D1)              0.06       3.94 f
+  i_MACU_unit_i_1/mult_20/U269/CO (CMPE32D1)              0.06       4.00 f
+  i_MACU_unit_i_1/mult_20/U268/CO (CMPE32D1)              0.06       4.06 f
+  i_MACU_unit_i_1/mult_20/U267/CO (CMPE32D1)              0.06       4.12 f
+  i_MACU_unit_i_1/mult_20/U266/CO (CMPE32D1)              0.06       4.17 f
+  i_MACU_unit_i_1/mult_20/U265/CO (CMPE32D1)              0.06       4.23 f
+  i_MACU_unit_i_1/mult_20/U264/CO (CMPE32D1)              0.06       4.29 f
+  i_MACU_unit_i_1/mult_20/U263/CO (CMPE32D1)              0.06       4.35 f
+  i_MACU_unit_i_1/mult_20/U262/CO (CMPE32D1)              0.06       4.40 f
+  i_MACU_unit_i_1/mult_20/U261/CO (CMPE32D1)              0.06       4.46 f
+  i_MACU_unit_i_1/mult_20/U260/CO (CMPE32D1)              0.06       4.52 f
+  i_MACU_unit_i_1/mult_20/U259/CO (CMPE32D1)              0.06       4.58 f
+  i_MACU_unit_i_1/mult_20/U258/CO (CMPE32D1)              0.06       4.63 f
+  i_MACU_unit_i_1/mult_20/U257/CO (CMPE32D1)              0.06       4.69 f
+  i_MACU_unit_i_1/mult_20/U256/CO (CMPE32D1)              0.06       4.75 f
+  i_MACU_unit_i_1/mult_20/U255/CO (CMPE32D1)              0.06       4.80 f
+  i_MACU_unit_i_1/mult_20/U254/CO (CMPE32D1)              0.06       4.86 f
+  i_MACU_unit_i_1/mult_20/U253/CO (CMPE32D1)              0.06       4.92 f
+  i_MACU_unit_i_1/mult_20/U252/CO (CMPE32D1)              0.06       4.98 f
+  i_MACU_unit_i_1/mult_20/U251/CO (CMPE32D1)              0.06       5.03 f
+  i_MACU_unit_i_1/mult_20/U250/CO (CMPE32D1)              0.06       5.09 f
+  i_MACU_unit_i_1/mult_20/U249/CO (CMPE32D1)              0.06       5.15 f
+  i_MACU_unit_i_1/mult_20/U248/CO (CMPE32D1)              0.06       5.21 f
+  i_MACU_unit_i_1/mult_20/U247/CO (CMPE32D1)              0.06       5.26 f
+  i_MACU_unit_i_1/mult_20/U246/CO (CMPE32D1)              0.06       5.32 f
+  i_MACU_unit_i_1/mult_20/U245/CO (CMPE32D1)              0.05       5.37 f
+  i_MACU_unit_i_1/mult_20/U1927/Z (XOR3D0)                0.17       5.55 f
+  i_MACU_unit_i_1/mult_20/product[51] (MAC_unit_4_DW_mult_tc_0)
+                                                          0.00       5.55 f
+  i_MACU_unit_i_1/add_21/A[31] (MAC_unit_4_DW01_add_0)
+                                                          0.00       5.55 f
+  i_MACU_unit_i_1/add_21/U1_31/Z (XOR3D1)                 0.11       5.65 f
+  i_MACU_unit_i_1/add_21/SUM[31] (MAC_unit_4_DW01_add_0)
+                                                          0.00       5.65 f
+  i_MACU_unit_i_1/y[31] (MAC_unit_4)                      0.00       5.65 f
+  i_MACU_unit_i_2/b[31] (MAC_unit_3)                      0.00       5.65 f
+  i_MACU_unit_i_2/add_21/B[31] (MAC_unit_3_DW01_add_0)
+                                                          0.00       5.65 f
+  i_MACU_unit_i_2/add_21/U1_31/Z (XOR3D1)                 0.15       5.80 f
+  i_MACU_unit_i_2/add_21/SUM[31] (MAC_unit_3_DW01_add_0)
+                                                          0.00       5.80 f
+  i_MACU_unit_i_2/y[31] (MAC_unit_3)                      0.00       5.80 f
+  i_MACU_unit_i_3/b[31] (MAC_unit_2)                      0.00       5.80 f
+  i_MACU_unit_i_3/add_21/B[31] (MAC_unit_2_DW01_add_0)
+                                                          0.00       5.80 f
+  i_MACU_unit_i_3/add_21/U1_31/Z (XOR3D1)                 0.15       5.95 f
+  i_MACU_unit_i_3/add_21/SUM[31] (MAC_unit_2_DW01_add_0)
+                                                          0.00       5.95 f
+  i_MACU_unit_i_3/y[31] (MAC_unit_2)                      0.00       5.95 f
+  i_MACU_unit_last/b[31] (MAC_unit_1)                     0.00       5.95 f
+  i_MACU_unit_last/add_21/B[31] (MAC_unit_1_DW01_add_0)
+                                                          0.00       5.95 f
+  i_MACU_unit_last/add_21/U1_31/Z (XOR3D1)                0.14       6.09 f
+  i_MACU_unit_last/add_21/SUM[31] (MAC_unit_1_DW01_add_0)
+                                                          0.00       6.09 f
+  i_MACU_unit_last/y[31] (MAC_unit_1)                     0.00       6.09 f
+  input_activation_function_reg[31]/D (DFQD1)             0.00       6.09 f
+  data arrival time                                                  6.09
+
+  clock clk (rise edge)                                  40.00      40.00
+  clock network delay (ideal)                             0.00      40.00
+  input_activation_function_reg[31]/CP (DFQD1)            0.00      40.00 r
+  library setup time                                     -0.03      39.97
+  data required time                                                39.97
+  --------------------------------------------------------------------------
+  data required time                                                39.97
+  data arrival time                                                 -6.09
+  --------------------------------------------------------------------------
+  slack (MET)                                                       33.88
+
+
+1

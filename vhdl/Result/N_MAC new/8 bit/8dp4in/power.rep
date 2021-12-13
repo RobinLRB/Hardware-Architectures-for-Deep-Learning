@@ -1,0 +1,57 @@
+Loading db file '/afs/it.kth.se/pkg/synopsys/extra_libraries/standard_cell/TSMC/tcbn90g_110a/Front_End/timing_power/tcbn90g_110a/tcbn90gtc.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : neuron_fully_parallel
+Version: J-2014.09
+Date   : Fri Nov 13 00:12:50 2020
+****************************************
+
+
+Library(s) Used:
+
+    tcbn90gtc (File: /afs/it.kth.se/pkg/synopsys/extra_libraries/standard_cell/TSMC/tcbn90g_110a/Front_End/timing_power/tcbn90g_110a/tcbn90gtc.db)
+
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+neuron_fully_parallel  ZeroWireload      tcbn90gtc
+
+
+Global Operating Voltage = 1    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+  Cell Internal Power  = 403.4674 uW   (86%)
+  Net Switching Power  =  65.8578 uW   (14%)
+                         ---------
+Total Dynamic Power    = 469.3252 uW  (100%)
+
+Cell Leakage Power     =  16.2884 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.2027        5.1838e-03        1.8382e+03            0.2097  (  43.19%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.2008        6.0674e-02        1.4450e+04            0.2759  (  56.81%)
+--------------------------------------------------------------------------------------------------
+Total              0.4035 mW     6.5858e-02 mW     1.6288e+04 nW         0.4856 mW
+1

@@ -1,0 +1,390 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : neuron_fully_parallel
+Version: J-2014.09
+Date   : Fri Nov 13 00:26:16 2020
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: in_w_reg[0][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: input_activation_function_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  neuron_fully_parallel
+                     ZeroWireload          tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  in_w_reg[0][1]/CP (DFQD4)                               0.00       0.00 r
+  in_w_reg[0][1]/Q (DFQD4)                                0.12       0.12 r
+  i_MACU_unit_i_1/w[1] (MAC_unit_32)                      0.00       0.12 r
+  i_MACU_unit_i_1/mult_20/a[1] (MAC_unit_32_DW_mult_tc_2)
+                                                          0.00       0.12 r
+  i_MACU_unit_i_1/mult_20/U338/ZN (XNR2D2)                0.09       0.20 f
+  i_MACU_unit_i_1/mult_20/U358/ZN (OAI22D2)               0.06       0.26 r
+  i_MACU_unit_i_1/mult_20/U255/S (CMPE32D2)               0.12       0.38 r
+  i_MACU_unit_i_1/mult_20/U360/ZN (NR2D1)                 0.02       0.40 f
+  i_MACU_unit_i_1/mult_20/U374/Z (OA21D1)                 0.06       0.46 f
+  i_MACU_unit_i_1/mult_20/U410/Z (OA21D1)                 0.05       0.52 f
+  i_MACU_unit_i_1/mult_20/U393/ZN (OAI21D1)               0.04       0.56 r
+  i_MACU_unit_i_1/mult_20/U354/ZN (INVD1)                 0.02       0.58 f
+  i_MACU_unit_i_1/mult_20/U270/ZN (CKND2D1)               0.02       0.60 r
+  i_MACU_unit_i_1/mult_20/U282/ZN (ND2D1)                 0.02       0.62 f
+  i_MACU_unit_i_1/mult_20/product[7] (MAC_unit_32_DW_mult_tc_2)
+                                                          0.00       0.62 f
+  i_MACU_unit_i_1/add_21/A[2] (MAC_unit_32_DW01_add_3)
+                                                          0.00       0.62 f
+  i_MACU_unit_i_1/add_21/U70/Z (OR2D1)                    0.05       0.66 f
+  i_MACU_unit_i_1/add_21/U97/Z (AN2D2)                    0.04       0.70 f
+  i_MACU_unit_i_1/add_21/U96/ZN (XNR2D2)                  0.07       0.77 f
+  i_MACU_unit_i_1/add_21/SUM[2] (MAC_unit_32_DW01_add_3)
+                                                          0.00       0.77 f
+  i_MACU_unit_i_1/y[2] (MAC_unit_32)                      0.00       0.77 f
+  i_MACU_unit_i_2/b[2] (MAC_unit_31)                      0.00       0.77 f
+  i_MACU_unit_i_2/add_21/B[2] (MAC_unit_31_DW01_add_2)
+                                                          0.00       0.77 f
+  i_MACU_unit_i_2/add_21/U68/Z (OR2D4)                    0.06       0.82 f
+  i_MACU_unit_i_2/add_21/U67/ZN (CKND2D4)                 0.02       0.84 r
+  i_MACU_unit_i_2/add_21/U113/ZN (INVD2)                  0.01       0.86 f
+  i_MACU_unit_i_2/add_21/U112/ZN (CKND2D2)                0.02       0.87 r
+  i_MACU_unit_i_2/add_21/U115/ZN (ND2D2)                  0.02       0.90 f
+  i_MACU_unit_i_2/add_21/SUM[2] (MAC_unit_31_DW01_add_2)
+                                                          0.00       0.90 f
+  i_MACU_unit_i_2/y[2] (MAC_unit_31)                      0.00       0.90 f
+  i_MACU_unit_i_3/b[2] (MAC_unit_30)                      0.00       0.90 f
+  i_MACU_unit_i_3/add_21/B[2] (MAC_unit_30_DW01_add_3)
+                                                          0.00       0.90 f
+  i_MACU_unit_i_3/add_21/U111/ZN (NR2D2)                  0.03       0.93 r
+  i_MACU_unit_i_3/add_21/U78/ZN (INVD1)                   0.02       0.95 f
+  i_MACU_unit_i_3/add_21/U90/ZN (CKND2D1)                 0.02       0.97 r
+  i_MACU_unit_i_3/add_21/U33/ZN (XNR2D2)                  0.07       1.03 f
+  i_MACU_unit_i_3/add_21/SUM[2] (MAC_unit_30_DW01_add_3)
+                                                          0.00       1.03 f
+  i_MACU_unit_i_3/y[2] (MAC_unit_30)                      0.00       1.03 f
+  i_MACU_unit_i_4/b[2] (MAC_unit_29)                      0.00       1.03 f
+  i_MACU_unit_i_4/add_21/B[2] (MAC_unit_29_DW01_add_2)
+                                                          0.00       1.03 f
+  i_MACU_unit_i_4/add_21/U95/Z (OR2D1)                    0.05       1.08 f
+  i_MACU_unit_i_4/add_21/U84/ZN (CKND2D1)                 0.02       1.10 r
+  i_MACU_unit_i_4/add_21/U33/ZN (XNR2D2)                  0.07       1.17 f
+  i_MACU_unit_i_4/add_21/SUM[2] (MAC_unit_29_DW01_add_2)
+                                                          0.00       1.17 f
+  i_MACU_unit_i_4/y[2] (MAC_unit_29)                      0.00       1.17 f
+  i_MACU_unit_i_5/b[2] (MAC_unit_28)                      0.00       1.17 f
+  i_MACU_unit_i_5/add_21/B[2] (MAC_unit_28_DW01_add_2)
+                                                          0.00       1.17 f
+  i_MACU_unit_i_5/add_21/U87/Z (OR2D1)                    0.05       1.22 f
+  i_MACU_unit_i_5/add_21/U74/ZN (CKND2D1)                 0.02       1.24 r
+  i_MACU_unit_i_5/add_21/U33/ZN (XNR2D2)                  0.07       1.31 f
+  i_MACU_unit_i_5/add_21/SUM[2] (MAC_unit_28_DW01_add_2)
+                                                          0.00       1.31 f
+  i_MACU_unit_i_5/y[2] (MAC_unit_28)                      0.00       1.31 f
+  i_MACU_unit_i_6/b[2] (MAC_unit_27)                      0.00       1.31 f
+  i_MACU_unit_i_6/add_21/B[2] (MAC_unit_27_DW01_add_2)
+                                                          0.00       1.31 f
+  i_MACU_unit_i_6/add_21/U74/Z (OR2D1)                    0.05       1.35 f
+  i_MACU_unit_i_6/add_21/U103/ZN (CKND2D1)                0.02       1.38 r
+  i_MACU_unit_i_6/add_21/U33/ZN (XNR2D2)                  0.07       1.45 r
+  i_MACU_unit_i_6/add_21/SUM[2] (MAC_unit_27_DW01_add_2)
+                                                          0.00       1.45 r
+  i_MACU_unit_i_6/y[2] (MAC_unit_27)                      0.00       1.45 r
+  i_MACU_unit_i_7/b[2] (MAC_unit_26)                      0.00       1.45 r
+  i_MACU_unit_i_7/add_21/B[2] (MAC_unit_26_DW01_add_2)
+                                                          0.00       1.45 r
+  i_MACU_unit_i_7/add_21/U90/ZN (CKND2D2)                 0.03       1.48 f
+  i_MACU_unit_i_7/add_21/U105/ZN (INVD2)                  0.02       1.50 r
+  i_MACU_unit_i_7/add_21/U106/ZN (AOI21D2)                0.02       1.52 f
+  i_MACU_unit_i_7/add_21/U95/ZN (INVD2)                   0.02       1.54 r
+  i_MACU_unit_i_7/add_21/U88/ZN (CKND2D2)                 0.02       1.56 f
+  i_MACU_unit_i_7/add_21/U92/ZN (ND2D2)                   0.02       1.59 r
+  i_MACU_unit_i_7/add_21/U56/ZN (INVD1)                   0.01       1.60 f
+  i_MACU_unit_i_7/add_21/U94/ZN (OAI21D1)                 0.04       1.64 r
+  i_MACU_unit_i_7/add_21/U100/ZN (XNR2D2)                 0.08       1.72 f
+  i_MACU_unit_i_7/add_21/SUM[5] (MAC_unit_26_DW01_add_2)
+                                                          0.00       1.72 f
+  i_MACU_unit_i_7/y[5] (MAC_unit_26)                      0.00       1.72 f
+  i_MACU_unit_i_8/b[5] (MAC_unit_25)                      0.00       1.72 f
+  i_MACU_unit_i_8/add_21/B[5] (MAC_unit_25_DW01_add_2)
+                                                          0.00       1.72 f
+  i_MACU_unit_i_8/add_21/U69/ZN (ND2D0)                   0.04       1.76 r
+  i_MACU_unit_i_8/add_21/U85/Z (AN2D2)                    0.05       1.81 r
+  i_MACU_unit_i_8/add_21/U89/Z (XOR2D2)                   0.07       1.88 f
+  i_MACU_unit_i_8/add_21/SUM[5] (MAC_unit_25_DW01_add_2)
+                                                          0.00       1.88 f
+  i_MACU_unit_i_8/y[5] (MAC_unit_25)                      0.00       1.88 f
+  i_MACU_unit_i_9/b[5] (MAC_unit_24)                      0.00       1.88 f
+  i_MACU_unit_i_9/add_21/B[5] (MAC_unit_24_DW01_add_2)
+                                                          0.00       1.88 f
+  i_MACU_unit_i_9/add_21/U112/ZN (NR2D2)                  0.03       1.91 r
+  i_MACU_unit_i_9/add_21/U111/ZN (INVD1)                  0.01       1.93 f
+  i_MACU_unit_i_9/add_21/U96/ZN (CKND2D1)                 0.02       1.95 r
+  i_MACU_unit_i_9/add_21/U116/ZN (XNR2D2)                 0.07       2.01 f
+  i_MACU_unit_i_9/add_21/SUM[5] (MAC_unit_24_DW01_add_2)
+                                                          0.00       2.01 f
+  i_MACU_unit_i_9/y[5] (MAC_unit_24)                      0.00       2.01 f
+  i_MACU_unit_i_10/b[5] (MAC_unit_23)                     0.00       2.01 f
+  i_MACU_unit_i_10/add_21/B[5] (MAC_unit_23_DW01_add_2)
+                                                          0.00       2.01 f
+  i_MACU_unit_i_10/add_21/U78/ZN (NR2D2)                  0.04       2.06 r
+  i_MACU_unit_i_10/add_21/U66/ZN (INVD2)                  0.02       2.07 f
+  i_MACU_unit_i_10/add_21/U57/ZN (CKND2D3)                0.02       2.10 r
+  i_MACU_unit_i_10/add_21/U77/ZN (INVD2)                  0.01       2.11 f
+  i_MACU_unit_i_10/add_21/U74/ZN (CKND2D2)                0.02       2.13 r
+  i_MACU_unit_i_10/add_21/U76/ZN (ND2D2)                  0.02       2.15 f
+  i_MACU_unit_i_10/add_21/SUM[5] (MAC_unit_23_DW01_add_2)
+                                                          0.00       2.15 f
+  i_MACU_unit_i_10/y[5] (MAC_unit_23)                     0.00       2.15 f
+  i_MACU_unit_i_11/b[5] (MAC_unit_22)                     0.00       2.15 f
+  i_MACU_unit_i_11/add_21/B[5] (MAC_unit_22_DW01_add_2)
+                                                          0.00       2.15 f
+  i_MACU_unit_i_11/add_21/U77/Z (OR2D1)                   0.05       2.20 f
+  i_MACU_unit_i_11/add_21/U78/ZN (CKND2D2)                0.02       2.22 r
+  i_MACU_unit_i_11/add_21/U101/ZN (XNR2D2)                0.06       2.28 f
+  i_MACU_unit_i_11/add_21/SUM[5] (MAC_unit_22_DW01_add_2)
+                                                          0.00       2.28 f
+  i_MACU_unit_i_11/y[5] (MAC_unit_22)                     0.00       2.28 f
+  i_MACU_unit_i_12/b[5] (MAC_unit_21)                     0.00       2.28 f
+  i_MACU_unit_i_12/add_21/B[5] (MAC_unit_21_DW01_add_2)
+                                                          0.00       2.28 f
+  i_MACU_unit_i_12/add_21/U101/ZN (NR2D2)                 0.03       2.32 r
+  i_MACU_unit_i_12/add_21/U111/ZN (INVD1)                 0.02       2.34 f
+  i_MACU_unit_i_12/add_21/U61/ZN (ND2D1)                  0.03       2.36 r
+  i_MACU_unit_i_12/add_21/U85/ZN (INVD1)                  0.02       2.38 f
+  i_MACU_unit_i_12/add_21/U64/ZN (ND2D2)                  0.02       2.40 r
+  i_MACU_unit_i_12/add_21/U63/ZN (ND2D2)                  0.02       2.42 f
+  i_MACU_unit_i_12/add_21/SUM[5] (MAC_unit_21_DW01_add_2)
+                                                          0.00       2.42 f
+  i_MACU_unit_i_12/y[5] (MAC_unit_21)                     0.00       2.42 f
+  i_MACU_unit_i_13/b[5] (MAC_unit_20)                     0.00       2.42 f
+  i_MACU_unit_i_13/add_21/B[5] (MAC_unit_20_DW01_add_2)
+                                                          0.00       2.42 f
+  i_MACU_unit_i_13/add_21/U115/ZN (NR2D2)                 0.03       2.45 r
+  i_MACU_unit_i_13/add_21/U118/ZN (INVD1)                 0.02       2.47 f
+  i_MACU_unit_i_13/add_21/U93/ZN (CKND2D2)                0.02       2.49 r
+  i_MACU_unit_i_13/add_21/U114/ZN (XNR2D2)                0.07       2.55 f
+  i_MACU_unit_i_13/add_21/SUM[5] (MAC_unit_20_DW01_add_2)
+                                                          0.00       2.55 f
+  i_MACU_unit_i_13/y[5] (MAC_unit_20)                     0.00       2.55 f
+  i_MACU_unit_i_14/b[5] (MAC_unit_19)                     0.00       2.55 f
+  i_MACU_unit_i_14/add_21/B[5] (MAC_unit_19_DW01_add_2)
+                                                          0.00       2.55 f
+  i_MACU_unit_i_14/add_21/U92/ZN (NR2D2)                  0.03       2.59 r
+  i_MACU_unit_i_14/add_21/U106/ZN (INVD1)                 0.02       2.60 f
+  i_MACU_unit_i_14/add_21/U61/ZN (CKND2D2)                0.02       2.63 r
+  i_MACU_unit_i_14/add_21/U60/ZN (INVD2)                  0.01       2.64 f
+  i_MACU_unit_i_14/add_21/U100/ZN (CKND2D2)               0.02       2.66 r
+  i_MACU_unit_i_14/add_21/U101/ZN (ND2D2)                 0.02       2.68 f
+  i_MACU_unit_i_14/add_21/SUM[5] (MAC_unit_19_DW01_add_2)
+                                                          0.00       2.68 f
+  i_MACU_unit_i_14/y[5] (MAC_unit_19)                     0.00       2.68 f
+  i_MACU_unit_i_15/b[5] (MAC_unit_18)                     0.00       2.68 f
+  i_MACU_unit_i_15/add_21/B[5] (MAC_unit_18_DW01_add_2)
+                                                          0.00       2.68 f
+  i_MACU_unit_i_15/add_21/U56/ZN (NR2D1)                  0.03       2.71 r
+  i_MACU_unit_i_15/add_21/U95/ZN (INVD1)                  0.02       2.73 f
+  i_MACU_unit_i_15/add_21/U70/ZN (CKND2D1)                0.02       2.75 r
+  i_MACU_unit_i_15/add_21/U97/ZN (XNR2D2)                 0.07       2.82 f
+  i_MACU_unit_i_15/add_21/SUM[5] (MAC_unit_18_DW01_add_2)
+                                                          0.00       2.82 f
+  i_MACU_unit_i_15/y[5] (MAC_unit_18)                     0.00       2.82 f
+  i_MACU_unit_i_16/b[5] (MAC_unit_17)                     0.00       2.82 f
+  i_MACU_unit_i_16/add_21/B[5] (MAC_unit_17_DW01_add_2)
+                                                          0.00       2.82 f
+  i_MACU_unit_i_16/add_21/U78/ZN (CKND2D1)                0.04       2.86 r
+  i_MACU_unit_i_16/add_21/U74/ZN (CKND2D2)                0.03       2.88 f
+  i_MACU_unit_i_16/add_21/U83/ZN (INVD1)                  0.02       2.91 r
+  i_MACU_unit_i_16/add_21/U82/ZN (CKND2D2)                0.03       2.93 f
+  i_MACU_unit_i_16/add_21/U79/ZN (ND2D3)                  0.03       2.96 r
+  i_MACU_unit_i_16/add_21/SUM[5] (MAC_unit_17_DW01_add_2)
+                                                          0.00       2.96 r
+  i_MACU_unit_i_16/y[5] (MAC_unit_17)                     0.00       2.96 r
+  i_MACU_unit_i_17/b[5] (MAC_unit_16)                     0.00       2.96 r
+  i_MACU_unit_i_17/add_21/B[5] (MAC_unit_16_DW01_add_2)
+                                                          0.00       2.96 r
+  i_MACU_unit_i_17/add_21/U90/ZN (NR2D2)                  0.01       2.98 f
+  i_MACU_unit_i_17/add_21/U116/ZN (INVD1)                 0.02       2.99 r
+  i_MACU_unit_i_17/add_21/U117/ZN (CKND2D1)               0.02       3.02 f
+  i_MACU_unit_i_17/add_21/U115/ZN (XNR2D2)                0.07       3.08 f
+  i_MACU_unit_i_17/add_21/SUM[5] (MAC_unit_16_DW01_add_2)
+                                                          0.00       3.08 f
+  i_MACU_unit_i_17/y[5] (MAC_unit_16)                     0.00       3.08 f
+  i_MACU_unit_i_18/b[5] (MAC_unit_15)                     0.00       3.08 f
+  i_MACU_unit_i_18/add_21/B[5] (MAC_unit_15_DW01_add_2)
+                                                          0.00       3.08 f
+  i_MACU_unit_i_18/add_21/U100/Z (OR2D1)                  0.05       3.14 f
+  i_MACU_unit_i_18/add_21/U93/ZN (CKND2D2)                0.02       3.16 r
+  i_MACU_unit_i_18/add_21/U103/Z (XOR2D2)                 0.07       3.22 f
+  i_MACU_unit_i_18/add_21/SUM[5] (MAC_unit_15_DW01_add_2)
+                                                          0.00       3.22 f
+  i_MACU_unit_i_18/y[5] (MAC_unit_15)                     0.00       3.22 f
+  i_MACU_unit_i_19/b[5] (MAC_unit_14)                     0.00       3.22 f
+  i_MACU_unit_i_19/add_21/B[5] (MAC_unit_14_DW01_add_2)
+                                                          0.00       3.22 f
+  i_MACU_unit_i_19/add_21/U104/Z (OR2D1)                  0.05       3.27 f
+  i_MACU_unit_i_19/add_21/U101/ZN (CKND2D2)               0.02       3.30 r
+  i_MACU_unit_i_19/add_21/U78/ZN (INVD2)                  0.01       3.31 f
+  i_MACU_unit_i_19/add_21/U76/ZN (ND2D2)                  0.02       3.33 r
+  i_MACU_unit_i_19/add_21/U77/ZN (ND2D2)                  0.02       3.35 f
+  i_MACU_unit_i_19/add_21/SUM[5] (MAC_unit_14_DW01_add_2)
+                                                          0.00       3.35 f
+  i_MACU_unit_i_19/y[5] (MAC_unit_14)                     0.00       3.35 f
+  i_MACU_unit_i_20/b[5] (MAC_unit_13)                     0.00       3.35 f
+  i_MACU_unit_i_20/add_21/B[5] (MAC_unit_13_DW01_add_2)
+                                                          0.00       3.35 f
+  i_MACU_unit_i_20/add_21/U98/ZN (NR2D2)                  0.03       3.39 r
+  i_MACU_unit_i_20/add_21/U102/ZN (INVD1)                 0.02       3.41 f
+  i_MACU_unit_i_20/add_21/U61/ZN (CKND2D2)                0.02       3.43 r
+  i_MACU_unit_i_20/add_21/U69/ZN (INVD1)                  0.02       3.44 f
+  i_MACU_unit_i_20/add_21/U67/ZN (CKND2D2)                0.02       3.46 r
+  i_MACU_unit_i_20/add_21/U66/ZN (ND2D2)                  0.02       3.48 f
+  i_MACU_unit_i_20/add_21/SUM[5] (MAC_unit_13_DW01_add_2)
+                                                          0.00       3.48 f
+  i_MACU_unit_i_20/y[5] (MAC_unit_13)                     0.00       3.48 f
+  i_MACU_unit_i_21/b[5] (MAC_unit_12)                     0.00       3.48 f
+  i_MACU_unit_i_21/add_21/B[5] (MAC_unit_12_DW01_add_2)
+                                                          0.00       3.48 f
+  i_MACU_unit_i_21/add_21/U84/ZN (ND2D0)                  0.04       3.52 r
+  i_MACU_unit_i_21/add_21/U89/ZN (CKND2D1)                0.03       3.55 f
+  i_MACU_unit_i_21/add_21/U65/ZN (INVD1)                  0.03       3.58 r
+  i_MACU_unit_i_21/add_21/U60/ZN (CKND2D2)                0.02       3.60 f
+  i_MACU_unit_i_21/add_21/U64/ZN (ND2D1)                  0.03       3.63 r
+  i_MACU_unit_i_21/add_21/SUM[5] (MAC_unit_12_DW01_add_2)
+                                                          0.00       3.63 r
+  i_MACU_unit_i_21/y[5] (MAC_unit_12)                     0.00       3.63 r
+  i_MACU_unit_i_22/b[5] (MAC_unit_11)                     0.00       3.63 r
+  i_MACU_unit_i_22/add_21/B[5] (MAC_unit_11_DW01_add_2)
+                                                          0.00       3.63 r
+  i_MACU_unit_i_22/add_21/U105/ZN (ND2D0)                 0.04       3.66 f
+  i_MACU_unit_i_22/add_21/U96/ZN (CKND2D1)                0.03       3.69 r
+  i_MACU_unit_i_22/add_21/U102/ZN (XNR2D2)                0.07       3.76 f
+  i_MACU_unit_i_22/add_21/SUM[5] (MAC_unit_11_DW01_add_2)
+                                                          0.00       3.76 f
+  i_MACU_unit_i_22/y[5] (MAC_unit_11)                     0.00       3.76 f
+  i_MACU_unit_i_23/b[5] (MAC_unit_10)                     0.00       3.76 f
+  i_MACU_unit_i_23/add_21/B[5] (MAC_unit_10_DW01_add_2)
+                                                          0.00       3.76 f
+  i_MACU_unit_i_23/add_21/U111/ZN (NR2D2)                 0.03       3.79 r
+  i_MACU_unit_i_23/add_21/U117/ZN (INVD1)                 0.01       3.81 f
+  i_MACU_unit_i_23/add_21/U70/ZN (ND2D1)                  0.02       3.83 r
+  i_MACU_unit_i_23/add_21/U79/ZN (ND2D0)                  0.04       3.87 f
+  i_MACU_unit_i_23/add_21/U81/ZN (ND2D2)                  0.03       3.90 r
+  i_MACU_unit_i_23/add_21/SUM[5] (MAC_unit_10_DW01_add_2)
+                                                          0.00       3.90 r
+  i_MACU_unit_i_23/y[5] (MAC_unit_10)                     0.00       3.90 r
+  i_MACU_unit_i_24/b[5] (MAC_unit_9)                      0.00       3.90 r
+  i_MACU_unit_i_24/add_21/B[5] (MAC_unit_9_DW01_add_2)
+                                                          0.00       3.90 r
+  i_MACU_unit_i_24/add_21/U69/ZN (NR2D2)                  0.01       3.92 f
+  i_MACU_unit_i_24/add_21/U100/ZN (INVD1)                 0.02       3.94 r
+  i_MACU_unit_i_24/add_21/U91/ZN (CKND2D1)                0.02       3.96 f
+  i_MACU_unit_i_24/add_21/U92/ZN (XNR2D2)                 0.07       4.03 f
+  i_MACU_unit_i_24/add_21/SUM[5] (MAC_unit_9_DW01_add_2)
+                                                          0.00       4.03 f
+  i_MACU_unit_i_24/y[5] (MAC_unit_9)                      0.00       4.03 f
+  i_MACU_unit_i_25/b[5] (MAC_unit_8)                      0.00       4.03 f
+  i_MACU_unit_i_25/add_21/B[5] (MAC_unit_8_DW01_add_2)
+                                                          0.00       4.03 f
+  i_MACU_unit_i_25/add_21/U82/Z (OR2D1)                   0.05       4.08 f
+  i_MACU_unit_i_25/add_21/U85/ZN (CKND2D2)                0.02       4.10 r
+  i_MACU_unit_i_25/add_21/U94/ZN (XNR2D2)                 0.07       4.17 f
+  i_MACU_unit_i_25/add_21/SUM[5] (MAC_unit_8_DW01_add_2)
+                                                          0.00       4.17 f
+  i_MACU_unit_i_25/y[5] (MAC_unit_8)                      0.00       4.17 f
+  i_MACU_unit_i_26/b[5] (MAC_unit_7)                      0.00       4.17 f
+  i_MACU_unit_i_26/add_21/B[5] (MAC_unit_7_DW01_add_2)
+                                                          0.00       4.17 f
+  i_MACU_unit_i_26/add_21/U91/ZN (NR2D2)                  0.03       4.20 r
+  i_MACU_unit_i_26/add_21/U93/ZN (INVD1)                  0.02       4.21 f
+  i_MACU_unit_i_26/add_21/U83/ZN (CKND2D2)                0.02       4.23 r
+  i_MACU_unit_i_26/add_21/U12/ZN (XNR2D2)                 0.06       4.29 f
+  i_MACU_unit_i_26/add_21/SUM[5] (MAC_unit_7_DW01_add_2)
+                                                          0.00       4.29 f
+  i_MACU_unit_i_26/y[5] (MAC_unit_7)                      0.00       4.29 f
+  i_MACU_unit_i_27/b[5] (MAC_unit_6)                      0.00       4.29 f
+  i_MACU_unit_i_27/add_21/B[5] (MAC_unit_6_DW01_add_2)
+                                                          0.00       4.29 f
+  i_MACU_unit_i_27/add_21/U91/Z (OR2D1)                   0.05       4.34 f
+  i_MACU_unit_i_27/add_21/U94/ZN (CKND2D1)                0.02       4.37 r
+  i_MACU_unit_i_27/add_21/U12/ZN (XNR2D2)                 0.07       4.44 f
+  i_MACU_unit_i_27/add_21/SUM[5] (MAC_unit_6_DW01_add_2)
+                                                          0.00       4.44 f
+  i_MACU_unit_i_27/y[5] (MAC_unit_6)                      0.00       4.44 f
+  i_MACU_unit_i_28/b[5] (MAC_unit_5)                      0.00       4.44 f
+  i_MACU_unit_i_28/add_21/B[5] (MAC_unit_5_DW01_add_2)
+                                                          0.00       4.44 f
+  i_MACU_unit_i_28/add_21/U89/ZN (NR2D2)                  0.03       4.47 r
+  i_MACU_unit_i_28/add_21/U94/ZN (INVD1)                  0.02       4.48 f
+  i_MACU_unit_i_28/add_21/U86/ZN (CKND2D2)                0.02       4.50 r
+  i_MACU_unit_i_28/add_21/U91/ZN (XNR2D2)                 0.07       4.57 r
+  i_MACU_unit_i_28/add_21/SUM[5] (MAC_unit_5_DW01_add_2)
+                                                          0.00       4.57 r
+  i_MACU_unit_i_28/y[5] (MAC_unit_5)                      0.00       4.57 r
+  i_MACU_unit_i_29/b[5] (MAC_unit_4)                      0.00       4.57 r
+  i_MACU_unit_i_29/add_21/B[5] (MAC_unit_4_DW01_add_2)
+                                                          0.00       4.57 r
+  i_MACU_unit_i_29/add_21/U72/ZN (NR2D1)                  0.02       4.59 f
+  i_MACU_unit_i_29/add_21/U89/ZN (NR2D0)                  0.08       4.67 r
+  i_MACU_unit_i_29/add_21/U64/ZN (AOI21D2)                0.03       4.69 f
+  i_MACU_unit_i_29/add_21/U83/ZN (OAI21D1)                0.04       4.74 r
+  i_MACU_unit_i_29/add_21/U88/ZN (XNR2D2)                 0.08       4.82 f
+  i_MACU_unit_i_29/add_21/SUM[7] (MAC_unit_4_DW01_add_2)
+                                                          0.00       4.82 f
+  i_MACU_unit_i_29/y[7] (MAC_unit_4)                      0.00       4.82 f
+  i_MACU_unit_i_30/b[7] (MAC_unit_3)                      0.00       4.82 f
+  i_MACU_unit_i_30/add_21/B[7] (MAC_unit_3_DW01_add_2)
+                                                          0.00       4.82 f
+  i_MACU_unit_i_30/add_21/U104/Z (OR2D1)                  0.05       4.86 f
+  i_MACU_unit_i_30/add_21/U88/ZN (CKND2D1)                0.02       4.88 r
+  i_MACU_unit_i_30/add_21/U87/ZN (XNR2D2)                 0.07       4.96 f
+  i_MACU_unit_i_30/add_21/SUM[7] (MAC_unit_3_DW01_add_2)
+                                                          0.00       4.96 f
+  i_MACU_unit_i_30/y[7] (MAC_unit_3)                      0.00       4.96 f
+  i_MACU_unit_i_31/b[7] (MAC_unit_2)                      0.00       4.96 f
+  i_MACU_unit_i_31/add_21/B[7] (MAC_unit_2_DW01_add_2)
+                                                          0.00       4.96 f
+  i_MACU_unit_i_31/add_21/U100/Z (OR2D1)                  0.05       5.01 f
+  i_MACU_unit_i_31/add_21/U70/ZN (CKND2D1)                0.02       5.03 r
+  i_MACU_unit_i_31/add_21/U88/ZN (XNR2D2)                 0.06       5.09 f
+  i_MACU_unit_i_31/add_21/SUM[7] (MAC_unit_2_DW01_add_2)
+                                                          0.00       5.09 f
+  i_MACU_unit_i_31/y[7] (MAC_unit_2)                      0.00       5.09 f
+  i_MACU_unit_last/b[7] (MAC_unit_1)                      0.00       5.09 f
+  i_MACU_unit_last/add_21/B[7] (MAC_unit_1_DW01_add_2)
+                                                          0.00       5.09 f
+  i_MACU_unit_last/add_21/U105/Z (OR2D1)                  0.05       5.14 f
+  i_MACU_unit_last/add_21/U73/ZN (ND2D1)                  0.02       5.16 r
+  i_MACU_unit_last/add_21/U87/ZN (INVD1)                  0.01       5.18 f
+  i_MACU_unit_last/add_21/U85/ZN (ND2D1)                  0.02       5.19 r
+  i_MACU_unit_last/add_21/U89/ZN (CKND2D1)                0.02       5.22 f
+  i_MACU_unit_last/add_21/SUM[7] (MAC_unit_1_DW01_add_2)
+                                                          0.00       5.22 f
+  i_MACU_unit_last/y[7] (MAC_unit_1)                      0.00       5.22 f
+  input_activation_function_reg[7]/D (DFD1)               0.00       5.22 f
+  data arrival time                                                  5.22
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  input_activation_function_reg[7]/CP (DFD1)              0.00       5.00 r
+  library setup time                                     -0.02       4.98
+  data required time                                                 4.98
+  --------------------------------------------------------------------------
+  data required time                                                 4.98
+  data arrival time                                                 -5.22
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.24
+
+
+1

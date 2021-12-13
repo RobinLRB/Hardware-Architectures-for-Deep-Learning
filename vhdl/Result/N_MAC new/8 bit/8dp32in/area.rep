@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : neuron_fully_parallel
+Version: J-2014.09
+Date   : Fri Nov 13 00:26:16 2020
+****************************************
+
+Library(s) Used:
+
+    tcbn90gtc (File: /afs/it.kth.se/pkg/synopsys/extra_libraries/standard_cell/TSMC/tcbn90g_110a/Front_End/timing_power/tcbn90g_110a/tcbn90gtc.db)
+
+Number of ports:                          529
+Number of nets:                          1298
+Number of cells:                          538
+Number of combinational cells:              0
+Number of sequential cells:               504
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                      38
+
+Combinational area:              38487.859236
+Buf/Inv area:                     1815.206395
+Noncombinational area:            7076.160140
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 45564.019376
+Total area:                 undefined
+1

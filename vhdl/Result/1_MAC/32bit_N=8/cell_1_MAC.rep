@@ -1,0 +1,1027 @@
+ 
+****************************************
+Report : cell
+Design : neuron_fully_serial
+Version: J-2014.09
+Date   : Mon Nov  9 20:15:52 2020
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U49                       BUFFD0          tcbn90gtc       2.419200  
+U50                       BUFFD0          tcbn90gtc       2.419200  
+U51                       BUFFD0          tcbn90gtc       2.419200  
+U52                       BUFFD0          tcbn90gtc       2.419200  
+U53                       BUFFD0          tcbn90gtc       2.419200  
+U54                       BUFFD0          tcbn90gtc       2.419200  
+U55                       BUFFD0          tcbn90gtc       2.419200  
+U56                       BUFFD0          tcbn90gtc       2.419200  
+U57                       BUFFD0          tcbn90gtc       2.419200  
+U58                       BUFFD0          tcbn90gtc       2.419200  
+U59                       BUFFD0          tcbn90gtc       2.419200  
+U60                       BUFFD0          tcbn90gtc       2.419200  
+U61                       BUFFD0          tcbn90gtc       2.419200  
+U62                       BUFFD0          tcbn90gtc       2.419200  
+U63                       BUFFD0          tcbn90gtc       2.419200  
+U64                       BUFFD0          tcbn90gtc       2.419200  
+U65                       INVD1           tcbn90gtc       1.612800  
+U66                       INVD1           tcbn90gtc       1.612800  
+U67                       INVD1           tcbn90gtc       1.612800  
+U68                       INVD1           tcbn90gtc       1.612800  
+U69                       INVD1           tcbn90gtc       1.612800  
+U70                       INVD1           tcbn90gtc       1.612800  
+U71                       INVD1           tcbn90gtc       1.612800  
+U72                       INVD1           tcbn90gtc       1.612800  
+U73                       INVD1           tcbn90gtc       1.612800  
+U74                       INVD1           tcbn90gtc       1.612800  
+U75                       INVD1           tcbn90gtc       1.612800  
+U76                       INVD1           tcbn90gtc       1.612800  
+U77                       INVD1           tcbn90gtc       1.612800  
+U78                       INVD1           tcbn90gtc       1.612800  
+U79                       INVD1           tcbn90gtc       1.612800  
+U80                       INVD1           tcbn90gtc       1.612800  
+U81                       INVD1           tcbn90gtc       1.612800  
+U82                       INVD1           tcbn90gtc       1.612800  
+U83                       INVD1           tcbn90gtc       1.612800  
+U84                       INVD1           tcbn90gtc       1.612800  
+U85                       INVD1           tcbn90gtc       1.612800  
+U86                       INVD1           tcbn90gtc       1.612800  
+U87                       INVD1           tcbn90gtc       1.612800  
+U88                       INVD1           tcbn90gtc       1.612800  
+U89                       BUFFD0          tcbn90gtc       2.419200  
+U90                       INVD1           tcbn90gtc       1.612800  
+U91                       INVD1           tcbn90gtc       1.612800  
+U92                       INVD1           tcbn90gtc       1.612800  
+U93                       INVD1           tcbn90gtc       1.612800  
+U94                       INVD1           tcbn90gtc       1.612800  
+U95                       INVD1           tcbn90gtc       1.612800  
+U96                       INVD1           tcbn90gtc       1.612800  
+U97                       INVD1           tcbn90gtc       1.612800  
+U98                       INVD1           tcbn90gtc       1.612800  
+U99                       INVD1           tcbn90gtc       1.612800  
+U100                      INVD1           tcbn90gtc       1.612800  
+U101                      INVD1           tcbn90gtc       1.612800  
+U102                      INVD1           tcbn90gtc       1.612800  
+U103                      INVD1           tcbn90gtc       1.612800  
+U104                      INVD1           tcbn90gtc       1.612800  
+U105                      INVD1           tcbn90gtc       1.612800  
+U106                      INVD1           tcbn90gtc       1.612800  
+U107                      AN2D0           tcbn90gtc       3.225600  
+U108                      AN2D0           tcbn90gtc       3.225600  
+U109                      AN2D0           tcbn90gtc       3.225600  
+U110                      AN2D0           tcbn90gtc       3.225600  
+U111                      AN2D0           tcbn90gtc       3.225600  
+U112                      AN2D0           tcbn90gtc       3.225600  
+U113                      AN2D0           tcbn90gtc       3.225600  
+U114                      AN2D0           tcbn90gtc       3.225600  
+U115                      AN2D0           tcbn90gtc       3.225600  
+U116                      AN2D0           tcbn90gtc       3.225600  
+U117                      AN2D0           tcbn90gtc       3.225600  
+U118                      AN2D0           tcbn90gtc       3.225600  
+U119                      AN2D0           tcbn90gtc       3.225600  
+U120                      AN2D0           tcbn90gtc       3.225600  
+U121                      AN2D0           tcbn90gtc       3.225600  
+U122                      AN2D0           tcbn90gtc       3.225600  
+U123                      AN2D0           tcbn90gtc       3.225600  
+U124                      AN2D0           tcbn90gtc       3.225600  
+U125                      AN2D0           tcbn90gtc       3.225600  
+U126                      INVD1           tcbn90gtc       1.612800  
+U127                      BUFFD0          tcbn90gtc       2.419200  
+U128                      BUFFD0          tcbn90gtc       2.419200  
+U129                      ND2D1           tcbn90gtc       2.419200  
+U130                      BUFFD0          tcbn90gtc       2.419200  
+U131                      BUFFD0          tcbn90gtc       2.419200  
+U132                      BUFFD0          tcbn90gtc       2.419200  
+U133                      BUFFD0          tcbn90gtc       2.419200  
+U134                      BUFFD0          tcbn90gtc       2.419200  
+U135                      BUFFD0          tcbn90gtc       2.419200  
+U136                      BUFFD0          tcbn90gtc       2.419200  
+U137                      BUFFD0          tcbn90gtc       2.419200  
+U138                      BUFFD0          tcbn90gtc       2.419200  
+U139                      BUFFD0          tcbn90gtc       2.419200  
+U140                      BUFFD0          tcbn90gtc       2.419200  
+U141                      BUFFD0          tcbn90gtc       2.419200  
+U142                      BUFFD0          tcbn90gtc       2.419200  
+U143                      BUFFD0          tcbn90gtc       2.419200  
+U144                      BUFFD0          tcbn90gtc       2.419200  
+U145                      BUFFD0          tcbn90gtc       2.419200  
+U146                      BUFFD0          tcbn90gtc       2.419200  
+U147                      BUFFD0          tcbn90gtc       2.419200  
+U148                      BUFFD0          tcbn90gtc       2.419200  
+U149                      BUFFD0          tcbn90gtc       2.419200  
+U150                      AN2D0           tcbn90gtc       3.225600  
+U151                      AN2D0           tcbn90gtc       3.225600  
+U152                      AN2D0           tcbn90gtc       3.225600  
+U153                      AN2D0           tcbn90gtc       3.225600  
+U154                      AN2D0           tcbn90gtc       3.225600  
+U155                      AN2D0           tcbn90gtc       3.225600  
+U156                      AN2D0           tcbn90gtc       3.225600  
+U157                      AN2D0           tcbn90gtc       3.225600  
+U158                      AN2D0           tcbn90gtc       3.225600  
+U159                      AN2D0           tcbn90gtc       3.225600  
+U160                      AN2D0           tcbn90gtc       3.225600  
+U161                      AN2D0           tcbn90gtc       3.225600  
+U162                      BUFFD0          tcbn90gtc       2.419200  
+U163                      AN2D0           tcbn90gtc       3.225600  
+U164                      NR4D0           tcbn90gtc       4.838400  
+U165                      NR4D0           tcbn90gtc       4.838400  
+U166                      NR4D0           tcbn90gtc       4.838400  
+U167                      NR4D0           tcbn90gtc       4.838400  
+U168                      NR4D0           tcbn90gtc       4.838400  
+U169                      NR4D0           tcbn90gtc       4.838400  
+U170                      NR2D1           tcbn90gtc       2.419200  
+U171                      ND4D1           tcbn90gtc       4.838400  
+U172                      IND4D1          tcbn90gtc       5.644800  
+U173                      NR4D0           tcbn90gtc       4.838400  
+U174                      MUX4ND0         tcbn90gtc       15.321600 
+U175                      MUX4ND0         tcbn90gtc       15.321600 
+U176                      MUX4ND0         tcbn90gtc       15.321600 
+U177                      MUX4ND0         tcbn90gtc       15.321600 
+U178                      MUX4ND0         tcbn90gtc       15.321600 
+U179                      MUX4ND0         tcbn90gtc       15.321600 
+U180                      MUX4ND0         tcbn90gtc       15.321600 
+U181                      MUX4ND0         tcbn90gtc       15.321600 
+U182                      MUX4ND0         tcbn90gtc       15.321600 
+U183                      MUX4ND0         tcbn90gtc       15.321600 
+U184                      MUX4ND0         tcbn90gtc       15.321600 
+U185                      MUX4ND0         tcbn90gtc       15.321600 
+U186                      MUX4ND0         tcbn90gtc       15.321600 
+U187                      MUX4ND0         tcbn90gtc       15.321600 
+U188                      MUX4ND0         tcbn90gtc       15.321600 
+U189                      MUX4ND0         tcbn90gtc       15.321600 
+U190                      MUX4ND0         tcbn90gtc       15.321600 
+U191                      MUX4ND0         tcbn90gtc       15.321600 
+U192                      MUX4ND0         tcbn90gtc       15.321600 
+U193                      MUX4ND0         tcbn90gtc       15.321600 
+U194                      MUX4ND0         tcbn90gtc       15.321600 
+U195                      MUX4ND0         tcbn90gtc       15.321600 
+U196                      MUX4ND0         tcbn90gtc       15.321600 
+U197                      MUX4ND0         tcbn90gtc       15.321600 
+U198                      MUX4ND0         tcbn90gtc       15.321600 
+U199                      MUX4ND0         tcbn90gtc       15.321600 
+U200                      MUX4ND0         tcbn90gtc       15.321600 
+U201                      MUX4ND0         tcbn90gtc       15.321600 
+U202                      MUX4ND0         tcbn90gtc       15.321600 
+U203                      MUX4ND0         tcbn90gtc       15.321600 
+U204                      MUX4ND0         tcbn90gtc       15.321600 
+U205                      MUX4ND0         tcbn90gtc       15.321600 
+U206                      MUX4ND0         tcbn90gtc       15.321600 
+U207                      MUX4ND0         tcbn90gtc       15.321600 
+U208                      MUX4ND0         tcbn90gtc       15.321600 
+U209                      MUX4ND0         tcbn90gtc       15.321600 
+U210                      MUX4ND0         tcbn90gtc       15.321600 
+U211                      MUX4ND0         tcbn90gtc       15.321600 
+U212                      MUX4ND0         tcbn90gtc       15.321600 
+U213                      MUX4ND0         tcbn90gtc       15.321600 
+U214                      MUX4ND0         tcbn90gtc       15.321600 
+U215                      MUX4ND0         tcbn90gtc       15.321600 
+U216                      MUX4ND0         tcbn90gtc       15.321600 
+U217                      MUX4ND0         tcbn90gtc       15.321600 
+U218                      MUX4ND0         tcbn90gtc       15.321600 
+U219                      MUX4ND0         tcbn90gtc       15.321600 
+U220                      MUX4ND0         tcbn90gtc       15.321600 
+U221                      MUX4ND0         tcbn90gtc       15.321600 
+U222                      MUX4ND0         tcbn90gtc       15.321600 
+U223                      MUX4ND0         tcbn90gtc       15.321600 
+U224                      MUX4ND0         tcbn90gtc       15.321600 
+U225                      MUX4ND0         tcbn90gtc       15.321600 
+U226                      MUX4ND0         tcbn90gtc       15.321600 
+U227                      MUX4ND0         tcbn90gtc       15.321600 
+U228                      MUX4ND0         tcbn90gtc       15.321600 
+U229                      MUX4ND0         tcbn90gtc       15.321600 
+U230                      MUX4ND0         tcbn90gtc       15.321600 
+U231                      MUX4ND0         tcbn90gtc       15.321600 
+U232                      MUX4ND0         tcbn90gtc       15.321600 
+U233                      MUX4ND0         tcbn90gtc       15.321600 
+U234                      MUX4ND0         tcbn90gtc       15.321600 
+U235                      MUX4ND0         tcbn90gtc       15.321600 
+U236                      MUX4ND0         tcbn90gtc       15.321600 
+U237                      MUX4ND0         tcbn90gtc       15.321600 
+U238                      IND4D1          tcbn90gtc       5.644800  
+U239                      BUFFD0          tcbn90gtc       2.419200  
+U240                      BUFFD0          tcbn90gtc       2.419200  
+U241                      BUFFD0          tcbn90gtc       2.419200  
+U242                      BUFFD0          tcbn90gtc       2.419200  
+U243                      BUFFD0          tcbn90gtc       2.419200  
+U244                      BUFFD0          tcbn90gtc       2.419200  
+U245                      BUFFD0          tcbn90gtc       2.419200  
+U246                      BUFFD0          tcbn90gtc       2.419200  
+U247                      BUFFD0          tcbn90gtc       2.419200  
+U248                      MUX4ND0         tcbn90gtc       15.321600 
+U249                      MUX4ND0         tcbn90gtc       15.321600 
+U250                      MUX4ND0         tcbn90gtc       15.321600 
+U251                      MUX4ND0         tcbn90gtc       15.321600 
+U252                      MUX4ND0         tcbn90gtc       15.321600 
+U253                      MUX4ND0         tcbn90gtc       15.321600 
+U254                      MUX4ND0         tcbn90gtc       15.321600 
+U255                      MUX4ND0         tcbn90gtc       15.321600 
+U256                      MUX4ND0         tcbn90gtc       15.321600 
+U257                      MUX4ND0         tcbn90gtc       15.321600 
+U258                      MUX4ND0         tcbn90gtc       15.321600 
+U259                      MUX4ND0         tcbn90gtc       15.321600 
+U260                      MUX4ND0         tcbn90gtc       15.321600 
+U261                      MUX4ND0         tcbn90gtc       15.321600 
+U262                      MUX4ND0         tcbn90gtc       15.321600 
+U263                      MUX4ND0         tcbn90gtc       15.321600 
+U264                      MUX4ND0         tcbn90gtc       15.321600 
+U265                      MUX4ND0         tcbn90gtc       15.321600 
+U266                      MUX4ND0         tcbn90gtc       15.321600 
+U267                      MUX4ND0         tcbn90gtc       15.321600 
+U268                      MUX4ND0         tcbn90gtc       15.321600 
+U269                      MUX4ND0         tcbn90gtc       15.321600 
+U270                      MUX4ND0         tcbn90gtc       15.321600 
+U271                      MUX4ND0         tcbn90gtc       15.321600 
+U272                      MUX4ND0         tcbn90gtc       15.321600 
+U273                      MUX4ND0         tcbn90gtc       15.321600 
+U274                      MUX4ND0         tcbn90gtc       15.321600 
+U275                      MUX4ND0         tcbn90gtc       15.321600 
+U276                      MUX4ND0         tcbn90gtc       15.321600 
+U277                      MUX4ND0         tcbn90gtc       15.321600 
+U278                      MUX4ND0         tcbn90gtc       15.321600 
+U279                      MUX4ND0         tcbn90gtc       15.321600 
+U280                      MUX4ND0         tcbn90gtc       15.321600 
+U281                      MUX4ND0         tcbn90gtc       15.321600 
+U282                      MUX4ND0         tcbn90gtc       15.321600 
+U283                      MUX4ND0         tcbn90gtc       15.321600 
+U284                      MUX4ND0         tcbn90gtc       15.321600 
+U285                      MUX4ND0         tcbn90gtc       15.321600 
+U286                      MUX4ND0         tcbn90gtc       15.321600 
+U287                      MUX4ND0         tcbn90gtc       15.321600 
+U288                      MUX4ND0         tcbn90gtc       15.321600 
+U289                      MUX4ND0         tcbn90gtc       15.321600 
+U290                      MUX4ND0         tcbn90gtc       15.321600 
+U291                      MUX4ND0         tcbn90gtc       15.321600 
+U292                      MUX4ND0         tcbn90gtc       15.321600 
+U293                      MUX4ND0         tcbn90gtc       15.321600 
+U294                      MUX4ND0         tcbn90gtc       15.321600 
+U295                      MUX4ND0         tcbn90gtc       15.321600 
+U296                      MUX4ND0         tcbn90gtc       15.321600 
+U297                      MUX4ND0         tcbn90gtc       15.321600 
+U298                      MUX4ND0         tcbn90gtc       15.321600 
+U299                      MUX4ND0         tcbn90gtc       15.321600 
+U300                      MUX4ND0         tcbn90gtc       15.321600 
+U301                      MUX4ND0         tcbn90gtc       15.321600 
+U302                      MUX4ND0         tcbn90gtc       15.321600 
+U303                      MUX4ND0         tcbn90gtc       15.321600 
+U304                      MUX4ND0         tcbn90gtc       15.321600 
+U305                      MUX4ND0         tcbn90gtc       15.321600 
+U306                      MUX4ND0         tcbn90gtc       15.321600 
+U307                      MUX4ND0         tcbn90gtc       15.321600 
+U308                      MUX4ND0         tcbn90gtc       15.321600 
+U309                      MUX4ND0         tcbn90gtc       15.321600 
+U310                      MUX4ND0         tcbn90gtc       15.321600 
+U311                      MUX4ND0         tcbn90gtc       15.321600 
+U312                      MUX2ND0         tcbn90gtc       6.451200  
+U313                      MUX2ND0         tcbn90gtc       6.451200  
+U314                      MUX2ND0         tcbn90gtc       6.451200  
+U315                      MUX2ND0         tcbn90gtc       6.451200  
+U316                      MUX2ND0         tcbn90gtc       6.451200  
+U317                      MUX2ND0         tcbn90gtc       6.451200  
+U318                      MUX2ND0         tcbn90gtc       6.451200  
+U319                      MUX2ND0         tcbn90gtc       6.451200  
+U320                      MUX2ND0         tcbn90gtc       6.451200  
+U321                      MUX2ND0         tcbn90gtc       6.451200  
+U322                      MUX2ND0         tcbn90gtc       6.451200  
+U323                      MUX2ND0         tcbn90gtc       6.451200  
+U324                      MUX2ND0         tcbn90gtc       6.451200  
+U325                      MUX2ND0         tcbn90gtc       6.451200  
+U326                      MUX2ND0         tcbn90gtc       6.451200  
+U327                      MUX2ND0         tcbn90gtc       6.451200  
+U328                      MUX2ND0         tcbn90gtc       6.451200  
+U329                      MUX2ND0         tcbn90gtc       6.451200  
+U330                      MUX2ND0         tcbn90gtc       6.451200  
+U331                      MUX2ND0         tcbn90gtc       6.451200  
+U332                      MUX2ND0         tcbn90gtc       6.451200  
+U333                      MUX2ND0         tcbn90gtc       6.451200  
+U334                      MUX2ND0         tcbn90gtc       6.451200  
+U335                      MUX2ND0         tcbn90gtc       6.451200  
+U336                      MUX2ND0         tcbn90gtc       6.451200  
+U337                      MUX2ND0         tcbn90gtc       6.451200  
+U338                      MUX2ND0         tcbn90gtc       6.451200  
+U339                      MUX2ND0         tcbn90gtc       6.451200  
+U340                      MUX2ND0         tcbn90gtc       6.451200  
+U341                      MUX2ND0         tcbn90gtc       6.451200  
+U342                      MUX2ND0         tcbn90gtc       6.451200  
+U343                      MUX2ND0         tcbn90gtc       6.451200  
+U344                      MUX2ND0         tcbn90gtc       6.451200  
+U345                      MUX2ND0         tcbn90gtc       6.451200  
+U346                      MUX2ND0         tcbn90gtc       6.451200  
+U347                      MUX2ND0         tcbn90gtc       6.451200  
+U348                      MUX2ND0         tcbn90gtc       6.451200  
+U349                      MUX2ND0         tcbn90gtc       6.451200  
+U350                      MUX2ND0         tcbn90gtc       6.451200  
+U351                      MUX2ND0         tcbn90gtc       6.451200  
+U352                      MUX2ND0         tcbn90gtc       6.451200  
+U353                      MUX2ND0         tcbn90gtc       6.451200  
+U354                      MUX2ND0         tcbn90gtc       6.451200  
+U355                      MUX2ND0         tcbn90gtc       6.451200  
+U356                      MUX2ND0         tcbn90gtc       6.451200  
+U357                      MUX2ND0         tcbn90gtc       6.451200  
+U358                      MUX2ND0         tcbn90gtc       6.451200  
+U359                      MUX2ND0         tcbn90gtc       6.451200  
+U360                      MUX2ND0         tcbn90gtc       6.451200  
+U361                      MUX2ND0         tcbn90gtc       6.451200  
+U362                      MUX2ND0         tcbn90gtc       6.451200  
+U363                      MUX2ND0         tcbn90gtc       6.451200  
+U364                      MUX2ND0         tcbn90gtc       6.451200  
+U365                      MUX2ND0         tcbn90gtc       6.451200  
+U366                      MUX2ND0         tcbn90gtc       6.451200  
+U367                      MUX2ND0         tcbn90gtc       6.451200  
+U368                      MUX2ND0         tcbn90gtc       6.451200  
+U369                      MUX2ND0         tcbn90gtc       6.451200  
+U370                      MUX2ND0         tcbn90gtc       6.451200  
+U371                      MUX2ND0         tcbn90gtc       6.451200  
+U372                      MUX2ND0         tcbn90gtc       6.451200  
+U373                      MUX2ND0         tcbn90gtc       6.451200  
+U374                      MUX2ND0         tcbn90gtc       6.451200  
+U375                      MUX2ND0         tcbn90gtc       6.451200  
+act_x_reg[0]              EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[1]              EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[2]              EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[3]              EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[4]              EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[5]              EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[6]              EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[7]              EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[8]              EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[9]              EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[10]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[11]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[12]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[13]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[14]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[15]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[16]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[17]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[18]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[19]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[20]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[21]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[22]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[23]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[24]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[25]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[26]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[27]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[28]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[29]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[30]             EDFQD1          tcbn90gtc       18.547199 n
+act_x_reg[31]             EDFQD1          tcbn90gtc       18.547199 n
+add_108                   neuron_fully_serial_DW01_inc_0  347.558411
+                                                                    BO, h
+counter_reg[0]            EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[1]            EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[2]            EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[3]            EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[4]            EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[5]            EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[6]            EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[7]            EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[8]            EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[9]            EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[10]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[11]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[12]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[13]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[14]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[15]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[16]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[17]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[18]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[19]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[20]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[21]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[22]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[23]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[24]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[25]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[26]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[27]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[28]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[29]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[30]           EDFQD1          tcbn90gtc       18.547199 n
+counter_reg[31]           EDFQD1          tcbn90gtc       18.547199 n
+i_MACU_unit               MAC_unit                        13111.257732
+                                                                    h
+i_ReLU_function           ReLU_function                   466.099189
+                                                                    h, n
+in_w_reg[0][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[0][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[1][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[2][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[3][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[4][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[5][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[6][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_w_reg[7][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[0][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[1][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[2][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[3][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[4][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[5][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[6][31]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][0]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][1]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][2]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][3]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][4]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][5]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][6]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][7]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][8]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][9]            EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][10]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][11]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][12]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][13]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][14]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][15]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][16]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][17]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][18]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][19]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][20]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][21]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][22]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][23]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][24]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][25]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][26]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][27]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][28]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][29]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][30]           EDFQD1          tcbn90gtc       18.547199 n
+in_x_reg[7][31]           EDFQD1          tcbn90gtc       18.547199 n
+mac_b_reg[0]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[1]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[2]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[3]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[4]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[5]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[6]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[7]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[8]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[9]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[10]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[11]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[12]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[13]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[14]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[15]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[16]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[17]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[18]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[19]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[20]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[21]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[22]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[23]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[24]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[25]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[26]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[27]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[28]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[29]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[30]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_b_reg[31]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[0]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[1]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[2]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[3]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[4]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[5]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[6]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[7]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[8]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[9]              DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[10]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[11]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[12]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[13]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[14]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[15]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[16]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[17]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[18]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[19]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[20]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[21]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[22]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[23]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[24]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[25]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[26]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[27]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[28]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[29]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[30]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_w_reg[31]             DFKCNQD1        tcbn90gtc       14.515200 n
+mac_x_reg[0]              DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[1]              DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[2]              DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[3]              DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[4]              DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[5]              DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[6]              DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[7]              DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[8]              DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[9]              DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[10]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[11]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[12]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[13]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[14]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[15]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[16]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[17]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[18]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[19]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[20]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[21]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[22]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[23]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[24]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[25]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[26]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[27]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[28]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[29]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[30]             DFXD1           tcbn90gtc       18.547199 n
+mac_x_reg[31]             DFXD1           tcbn90gtc       18.547199 n
+state_reg                 DFQD2           tcbn90gtc       14.515200 n
+--------------------------------------------------------------------------------
+Total 1003 cells                                          28863.474846
+1

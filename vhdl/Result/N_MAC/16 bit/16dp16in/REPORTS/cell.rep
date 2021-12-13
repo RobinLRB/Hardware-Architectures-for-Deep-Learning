@@ -1,0 +1,88 @@
+ 
+****************************************
+Report : cell
+Design : neuron_fully_parallel
+Version: J-2014.09
+Date   : Thu Nov 12 19:17:14 2020
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+i_MACU_unit_0             MAC_unit_0                      3837.657622
+                                                                    h
+i_MACU_unit_i_1           MAC_unit_16                     3837.657622
+                                                                    h
+i_MACU_unit_i_2           MAC_unit_15                     3837.657622
+                                                                    h
+i_MACU_unit_i_3           MAC_unit_14                     3837.657622
+                                                                    h
+i_MACU_unit_i_4           MAC_unit_13                     3837.657622
+                                                                    h
+i_MACU_unit_i_5           MAC_unit_12                     3837.657622
+                                                                    h
+i_MACU_unit_i_6           MAC_unit_11                     3837.657622
+                                                                    h
+i_MACU_unit_i_7           MAC_unit_10                     3837.657622
+                                                                    h
+i_MACU_unit_i_8           MAC_unit_9                      3837.657622
+                                                                    h
+i_MACU_unit_i_9           MAC_unit_8                      3837.657622
+                                                                    h
+i_MACU_unit_i_10          MAC_unit_7                      3837.657622
+                                                                    h
+i_MACU_unit_i_11          MAC_unit_6                      3837.657622
+                                                                    h
+i_MACU_unit_i_12          MAC_unit_5                      3837.657622
+                                                                    h
+i_MACU_unit_i_13          MAC_unit_4                      3837.657622
+                                                                    h
+i_MACU_unit_i_14          MAC_unit_3                      3837.657622
+                                                                    h
+i_MACU_unit_i_15          MAC_unit_2                      3837.657622
+                                                                    h
+i_MACU_unit_last          MAC_unit_1                      3837.657622
+                                                                    h
+i_ReLU_function           ReLU_function                   233.855995
+                                                                    h, n
+input_activation_function_reg[0]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[1]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[2]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[3]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[4]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[5]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[6]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[7]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[8]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[9]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[10]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[11]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[12]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[13]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[14]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[15]
+                          DFQD1           tcbn90gtc       13.708800 n
+--------------------------------------------------------------------------------
+Total 34 cells                                            65693.376365
+1

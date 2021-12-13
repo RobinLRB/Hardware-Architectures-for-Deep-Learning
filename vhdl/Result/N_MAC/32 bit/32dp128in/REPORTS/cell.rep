@@ -1,0 +1,344 @@
+ 
+****************************************
+Report : cell
+Design : neuron_fully_parallel
+Version: J-2014.09
+Date   : Thu Nov 12 18:02:13 2020
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+i_MACU_unit_0             MAC_unit_0                      13024.166533
+                                                                    h
+i_MACU_unit_i_1           MAC_unit_128                    13026.585733
+                                                                    h
+i_MACU_unit_i_2           MAC_unit_127                    13026.585733
+                                                                    h
+i_MACU_unit_i_3           MAC_unit_126                    13026.585733
+                                                                    h
+i_MACU_unit_i_4           MAC_unit_125                    13026.585733
+                                                                    h
+i_MACU_unit_i_5           MAC_unit_124                    13026.585733
+                                                                    h
+i_MACU_unit_i_6           MAC_unit_123                    13026.585733
+                                                                    h
+i_MACU_unit_i_7           MAC_unit_122                    13026.585733
+                                                                    h
+i_MACU_unit_i_8           MAC_unit_121                    13026.585733
+                                                                    h
+i_MACU_unit_i_9           MAC_unit_120                    13026.585733
+                                                                    h
+i_MACU_unit_i_10          MAC_unit_119                    13026.585733
+                                                                    h
+i_MACU_unit_i_11          MAC_unit_118                    13026.585733
+                                                                    h
+i_MACU_unit_i_12          MAC_unit_117                    13026.585733
+                                                                    h
+i_MACU_unit_i_13          MAC_unit_116                    13026.585733
+                                                                    h
+i_MACU_unit_i_14          MAC_unit_115                    13026.585733
+                                                                    h
+i_MACU_unit_i_15          MAC_unit_114                    13026.585733
+                                                                    h
+i_MACU_unit_i_16          MAC_unit_113                    13026.585733
+                                                                    h
+i_MACU_unit_i_17          MAC_unit_112                    13026.585733
+                                                                    h
+i_MACU_unit_i_18          MAC_unit_111                    13026.585733
+                                                                    h
+i_MACU_unit_i_19          MAC_unit_110                    13026.585733
+                                                                    h
+i_MACU_unit_i_20          MAC_unit_109                    13026.585733
+                                                                    h
+i_MACU_unit_i_21          MAC_unit_108                    13026.585733
+                                                                    h
+i_MACU_unit_i_22          MAC_unit_107                    13026.585733
+                                                                    h
+i_MACU_unit_i_23          MAC_unit_106                    13026.585733
+                                                                    h
+i_MACU_unit_i_24          MAC_unit_105                    13026.585733
+                                                                    h
+i_MACU_unit_i_25          MAC_unit_104                    13026.585733
+                                                                    h
+i_MACU_unit_i_26          MAC_unit_103                    13026.585733
+                                                                    h
+i_MACU_unit_i_27          MAC_unit_102                    13026.585733
+                                                                    h
+i_MACU_unit_i_28          MAC_unit_101                    13026.585733
+                                                                    h
+i_MACU_unit_i_29          MAC_unit_100                    13026.585733
+                                                                    h
+i_MACU_unit_i_30          MAC_unit_99                     13026.585733
+                                                                    h
+i_MACU_unit_i_31          MAC_unit_98                     13026.585733
+                                                                    h
+i_MACU_unit_i_32          MAC_unit_97                     13026.585733
+                                                                    h
+i_MACU_unit_i_33          MAC_unit_96                     13026.585733
+                                                                    h
+i_MACU_unit_i_34          MAC_unit_95                     13026.585733
+                                                                    h
+i_MACU_unit_i_35          MAC_unit_94                     13026.585733
+                                                                    h
+i_MACU_unit_i_36          MAC_unit_93                     13026.585733
+                                                                    h
+i_MACU_unit_i_37          MAC_unit_92                     13026.585733
+                                                                    h
+i_MACU_unit_i_38          MAC_unit_91                     13026.585733
+                                                                    h
+i_MACU_unit_i_39          MAC_unit_90                     13026.585733
+                                                                    h
+i_MACU_unit_i_40          MAC_unit_89                     13026.585733
+                                                                    h
+i_MACU_unit_i_41          MAC_unit_88                     13026.585733
+                                                                    h
+i_MACU_unit_i_42          MAC_unit_87                     13026.585733
+                                                                    h
+i_MACU_unit_i_43          MAC_unit_86                     13026.585733
+                                                                    h
+i_MACU_unit_i_44          MAC_unit_85                     13026.585733
+                                                                    h
+i_MACU_unit_i_45          MAC_unit_84                     13026.585733
+                                                                    h
+i_MACU_unit_i_46          MAC_unit_83                     13026.585733
+                                                                    h
+i_MACU_unit_i_47          MAC_unit_82                     13026.585733
+                                                                    h
+i_MACU_unit_i_48          MAC_unit_81                     13026.585733
+                                                                    h
+i_MACU_unit_i_49          MAC_unit_80                     13026.585733
+                                                                    h
+i_MACU_unit_i_50          MAC_unit_79                     13026.585733
+                                                                    h
+i_MACU_unit_i_51          MAC_unit_78                     13026.585733
+                                                                    h
+i_MACU_unit_i_52          MAC_unit_77                     13026.585733
+                                                                    h
+i_MACU_unit_i_53          MAC_unit_76                     13026.585733
+                                                                    h
+i_MACU_unit_i_54          MAC_unit_75                     13026.585733
+                                                                    h
+i_MACU_unit_i_55          MAC_unit_74                     13026.585733
+                                                                    h
+i_MACU_unit_i_56          MAC_unit_73                     13026.585733
+                                                                    h
+i_MACU_unit_i_57          MAC_unit_72                     13026.585733
+                                                                    h
+i_MACU_unit_i_58          MAC_unit_71                     13026.585733
+                                                                    h
+i_MACU_unit_i_59          MAC_unit_70                     13026.585733
+                                                                    h
+i_MACU_unit_i_60          MAC_unit_69                     13026.585733
+                                                                    h
+i_MACU_unit_i_61          MAC_unit_68                     13026.585733
+                                                                    h
+i_MACU_unit_i_62          MAC_unit_67                     13026.585733
+                                                                    h
+i_MACU_unit_i_63          MAC_unit_66                     13026.585733
+                                                                    h
+i_MACU_unit_i_64          MAC_unit_65                     13026.585733
+                                                                    h
+i_MACU_unit_i_65          MAC_unit_64                     13026.585733
+                                                                    h
+i_MACU_unit_i_66          MAC_unit_63                     13026.585733
+                                                                    h
+i_MACU_unit_i_67          MAC_unit_62                     13026.585733
+                                                                    h
+i_MACU_unit_i_68          MAC_unit_61                     13026.585733
+                                                                    h
+i_MACU_unit_i_69          MAC_unit_60                     13026.585733
+                                                                    h
+i_MACU_unit_i_70          MAC_unit_59                     13026.585733
+                                                                    h
+i_MACU_unit_i_71          MAC_unit_58                     13026.585733
+                                                                    h
+i_MACU_unit_i_72          MAC_unit_57                     13026.585733
+                                                                    h
+i_MACU_unit_i_73          MAC_unit_56                     13026.585733
+                                                                    h
+i_MACU_unit_i_74          MAC_unit_55                     13026.585733
+                                                                    h
+i_MACU_unit_i_75          MAC_unit_54                     13026.585733
+                                                                    h
+i_MACU_unit_i_76          MAC_unit_53                     13026.585733
+                                                                    h
+i_MACU_unit_i_77          MAC_unit_52                     13026.585733
+                                                                    h
+i_MACU_unit_i_78          MAC_unit_51                     13026.585733
+                                                                    h
+i_MACU_unit_i_79          MAC_unit_50                     13026.585733
+                                                                    h
+i_MACU_unit_i_80          MAC_unit_49                     13026.585733
+                                                                    h
+i_MACU_unit_i_81          MAC_unit_48                     13026.585733
+                                                                    h
+i_MACU_unit_i_82          MAC_unit_47                     13026.585733
+                                                                    h
+i_MACU_unit_i_83          MAC_unit_46                     13026.585733
+                                                                    h
+i_MACU_unit_i_84          MAC_unit_45                     13026.585733
+                                                                    h
+i_MACU_unit_i_85          MAC_unit_44                     13026.585733
+                                                                    h
+i_MACU_unit_i_86          MAC_unit_43                     13026.585733
+                                                                    h
+i_MACU_unit_i_87          MAC_unit_42                     13026.585733
+                                                                    h
+i_MACU_unit_i_88          MAC_unit_41                     13026.585733
+                                                                    h
+i_MACU_unit_i_89          MAC_unit_40                     13026.585733
+                                                                    h
+i_MACU_unit_i_90          MAC_unit_39                     13026.585733
+                                                                    h
+i_MACU_unit_i_91          MAC_unit_38                     13026.585733
+                                                                    h
+i_MACU_unit_i_92          MAC_unit_37                     13026.585733
+                                                                    h
+i_MACU_unit_i_93          MAC_unit_36                     13026.585733
+                                                                    h
+i_MACU_unit_i_94          MAC_unit_35                     13026.585733
+                                                                    h
+i_MACU_unit_i_95          MAC_unit_34                     13026.585733
+                                                                    h
+i_MACU_unit_i_96          MAC_unit_33                     13026.585733
+                                                                    h
+i_MACU_unit_i_97          MAC_unit_32                     13026.585733
+                                                                    h
+i_MACU_unit_i_98          MAC_unit_31                     13026.585733
+                                                                    h
+i_MACU_unit_i_99          MAC_unit_30                     13026.585733
+                                                                    h
+i_MACU_unit_i_100         MAC_unit_29                     13026.585733
+                                                                    h
+i_MACU_unit_i_101         MAC_unit_28                     13026.585733
+                                                                    h
+i_MACU_unit_i_102         MAC_unit_27                     13026.585733
+                                                                    h
+i_MACU_unit_i_103         MAC_unit_26                     13026.585733
+                                                                    h
+i_MACU_unit_i_104         MAC_unit_25                     13026.585733
+                                                                    h
+i_MACU_unit_i_105         MAC_unit_24                     13026.585733
+                                                                    h
+i_MACU_unit_i_106         MAC_unit_23                     13026.585733
+                                                                    h
+i_MACU_unit_i_107         MAC_unit_22                     13026.585733
+                                                                    h
+i_MACU_unit_i_108         MAC_unit_21                     13026.585733
+                                                                    h
+i_MACU_unit_i_109         MAC_unit_20                     13026.585733
+                                                                    h
+i_MACU_unit_i_110         MAC_unit_19                     13026.585733
+                                                                    h
+i_MACU_unit_i_111         MAC_unit_18                     13026.585733
+                                                                    h
+i_MACU_unit_i_112         MAC_unit_17                     13026.585733
+                                                                    h
+i_MACU_unit_i_113         MAC_unit_16                     13026.585733
+                                                                    h
+i_MACU_unit_i_114         MAC_unit_15                     13026.585733
+                                                                    h
+i_MACU_unit_i_115         MAC_unit_14                     13026.585733
+                                                                    h
+i_MACU_unit_i_116         MAC_unit_13                     13026.585733
+                                                                    h
+i_MACU_unit_i_117         MAC_unit_12                     13026.585733
+                                                                    h
+i_MACU_unit_i_118         MAC_unit_11                     13026.585733
+                                                                    h
+i_MACU_unit_i_119         MAC_unit_10                     13026.585733
+                                                                    h
+i_MACU_unit_i_120         MAC_unit_9                      13026.585733
+                                                                    h
+i_MACU_unit_i_121         MAC_unit_8                      13026.585733
+                                                                    h
+i_MACU_unit_i_122         MAC_unit_7                      13026.585733
+                                                                    h
+i_MACU_unit_i_123         MAC_unit_6                      13026.585733
+                                                                    h
+i_MACU_unit_i_124         MAC_unit_5                      13026.585733
+                                                                    h
+i_MACU_unit_i_125         MAC_unit_4                      13026.585733
+                                                                    h
+i_MACU_unit_i_126         MAC_unit_3                      13026.585733
+                                                                    h
+i_MACU_unit_i_127         MAC_unit_2                      13026.585733
+                                                                    h
+i_MACU_unit_last          MAC_unit_1                      13026.585733
+                                                                    h
+i_ReLU_function           ReLU_function                   466.099189
+                                                                    h, n
+input_activation_function_reg[0]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[1]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[2]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[3]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[4]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[5]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[6]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[7]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[8]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[9]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[10]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[11]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[12]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[13]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[14]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[15]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[16]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[17]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[18]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[19]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[20]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[21]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[22]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[23]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[24]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[25]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[26]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[27]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[28]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[29]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[30]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[31]
+                          DFQD1           tcbn90gtc       13.708800 n
+--------------------------------------------------------------------------------
+Total 162 cells                                           1681331.921179
+1

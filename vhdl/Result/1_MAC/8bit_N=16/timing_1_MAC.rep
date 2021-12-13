@@ -1,0 +1,82 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : neuron_fully_serial
+Version: J-2014.09
+Date   : Tue Nov 10 17:16:48 2020
+****************************************
+
+Operating Conditions: NCCOM   Library: tcbn90gtc
+Wire Load Model Mode: top
+
+  Startpoint: counter_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: counter_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  neuron_fully_serial
+                     ZeroWireload          tcbn90gtc
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  counter_reg[0]/CP (EDFQD1)                              0.00       0.00 r
+  counter_reg[0]/Q (EDFQD1)                               0.12       0.12 r
+  add_108/A[0] (neuron_fully_serial_DW01_inc_0)           0.00       0.12 r
+  add_108/U1_1_1/CO (CMPE22D1)                            0.06       0.18 r
+  add_108/U1_1_2/CO (CMPE22D1)                            0.05       0.23 r
+  add_108/U1_1_3/CO (CMPE22D1)                            0.05       0.28 r
+  add_108/U1_1_4/CO (CMPE22D1)                            0.05       0.34 r
+  add_108/U1_1_5/CO (CMPE22D1)                            0.05       0.39 r
+  add_108/U1_1_6/CO (CMPE22D1)                            0.05       0.45 r
+  add_108/U1_1_7/CO (CMPE22D1)                            0.05       0.50 r
+  add_108/U1_1_8/CO (CMPE22D1)                            0.05       0.56 r
+  add_108/U1_1_9/CO (CMPE22D1)                            0.05       0.61 r
+  add_108/U1_1_10/CO (CMPE22D1)                           0.05       0.67 r
+  add_108/U1_1_11/CO (CMPE22D1)                           0.05       0.72 r
+  add_108/U1_1_12/CO (CMPE22D1)                           0.05       0.77 r
+  add_108/U1_1_13/CO (CMPE22D1)                           0.05       0.83 r
+  add_108/U1_1_14/CO (CMPE22D1)                           0.05       0.88 r
+  add_108/U1_1_15/CO (CMPE22D1)                           0.05       0.94 r
+  add_108/U1_1_16/CO (CMPE22D1)                           0.05       0.99 r
+  add_108/U1_1_17/CO (CMPE22D1)                           0.05       1.05 r
+  add_108/U1_1_18/CO (CMPE22D1)                           0.05       1.10 r
+  add_108/U1_1_19/CO (CMPE22D1)                           0.05       1.16 r
+  add_108/U1_1_20/CO (CMPE22D1)                           0.05       1.21 r
+  add_108/U1_1_21/CO (CMPE22D1)                           0.05       1.26 r
+  add_108/U1_1_22/CO (CMPE22D1)                           0.05       1.32 r
+  add_108/U1_1_23/CO (CMPE22D1)                           0.05       1.37 r
+  add_108/U1_1_24/CO (CMPE22D1)                           0.05       1.43 r
+  add_108/U1_1_25/CO (CMPE22D1)                           0.05       1.48 r
+  add_108/U1_1_26/CO (CMPE22D1)                           0.05       1.54 r
+  add_108/U1_1_27/CO (CMPE22D1)                           0.05       1.59 r
+  add_108/U1_1_28/CO (CMPE22D1)                           0.05       1.65 r
+  add_108/U1_1_29/CO (CMPE22D1)                           0.05       1.70 r
+  add_108/U1_1_30/CO (CMPE22D1)                           0.05       1.75 r
+  add_108/U2/Z (CKXOR2D0)                                 0.07       1.81 f
+  add_108/SUM[31] (neuron_fully_serial_DW01_inc_0)        0.00       1.81 f
+  U123/Z (AN2D0)                                          0.06       1.87 f
+  counter_reg[31]/D (EDFQD1)                              0.00       1.87 f
+  data arrival time                                                  1.87
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  counter_reg[31]/CP (EDFQD1)                             0.00       5.00 r
+  library setup time                                     -0.07       4.93
+  data required time                                                 4.93
+  --------------------------------------------------------------------------
+  data required time                                                 4.93
+  data arrival time                                                 -1.87
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.06
+
+
+1

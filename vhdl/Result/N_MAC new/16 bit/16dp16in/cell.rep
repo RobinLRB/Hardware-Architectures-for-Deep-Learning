@@ -1,0 +1,568 @@
+ 
+****************************************
+Report : cell
+Design : neuron_fully_parallel
+Version: J-2014.09
+Date   : Fri Nov 13 00:41:24 2020
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+i_MACU_unit_0             MAC_unit_0                      3837.657622
+                                                                    h
+i_MACU_unit_i_1           MAC_unit_16                     3837.657622
+                                                                    h
+i_MACU_unit_i_2           MAC_unit_15                     3837.657622
+                                                                    h
+i_MACU_unit_i_3           MAC_unit_14                     3837.657622
+                                                                    h
+i_MACU_unit_i_4           MAC_unit_13                     3837.657622
+                                                                    h
+i_MACU_unit_i_5           MAC_unit_12                     3837.657622
+                                                                    h
+i_MACU_unit_i_6           MAC_unit_11                     3837.657622
+                                                                    h
+i_MACU_unit_i_7           MAC_unit_10                     3837.657622
+                                                                    h
+i_MACU_unit_i_8           MAC_unit_9                      3837.657622
+                                                                    h
+i_MACU_unit_i_9           MAC_unit_8                      3837.657622
+                                                                    h
+i_MACU_unit_i_10          MAC_unit_7                      3837.657622
+                                                                    h
+i_MACU_unit_i_11          MAC_unit_6                      3837.657622
+                                                                    h
+i_MACU_unit_i_12          MAC_unit_5                      3837.657622
+                                                                    h
+i_MACU_unit_i_13          MAC_unit_4                      3837.657622
+                                                                    h
+i_MACU_unit_i_14          MAC_unit_3                      3837.657622
+                                                                    h
+i_MACU_unit_i_15          MAC_unit_2                      3837.657622
+                                                                    h
+i_MACU_unit_last          MAC_unit_1                      3837.657622
+                                                                    h
+i_ReLU_function           ReLU_function                   233.855995
+                                                                    h, n
+in_w_reg[0][0]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][1]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][2]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][3]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][4]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][5]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][6]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][7]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][8]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][9]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][10]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][11]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][12]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][13]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][14]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[0][15]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][0]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][1]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][2]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][3]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][4]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][5]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][6]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][7]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][8]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][9]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][10]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][11]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][12]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][13]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][14]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[1][15]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][0]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][1]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][2]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][3]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][4]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][5]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][6]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][7]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][8]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][9]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][10]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][11]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][12]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][13]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][14]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[2][15]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][0]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][1]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][2]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][3]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][4]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][5]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][6]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][7]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][8]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][9]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][10]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][11]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][12]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][13]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][14]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[3][15]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][0]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][1]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][2]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][3]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][4]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][5]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][6]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][7]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][8]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][9]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][10]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][11]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][12]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][13]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][14]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[4][15]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][0]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][1]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][2]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][3]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][4]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][5]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][6]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][7]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][8]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][9]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][10]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][11]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][12]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][13]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][14]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[5][15]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][0]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][1]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][2]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][3]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][4]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][5]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][6]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][7]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][8]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][9]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][10]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][11]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][12]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][13]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][14]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[6][15]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][0]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][1]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][2]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][3]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][4]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][5]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][6]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][7]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][8]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][9]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][10]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][11]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][12]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][13]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][14]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[7][15]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][0]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][1]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][2]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][3]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][4]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][5]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][6]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][7]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][8]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][9]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][10]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][11]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][12]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][13]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][14]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[8][15]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][0]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][1]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][2]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][3]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][4]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][5]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][6]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][7]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][8]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][9]            DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][10]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][11]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][12]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][13]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][14]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[9][15]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][0]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][1]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][2]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][3]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][4]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][5]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][6]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][7]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][8]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][9]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][10]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][11]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][12]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][13]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][14]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[10][15]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][0]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][1]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][2]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][3]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][4]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][5]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][6]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][7]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][8]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][9]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][10]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][11]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][12]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][13]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][14]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[11][15]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][0]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][1]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][2]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][3]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][4]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][5]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][6]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][7]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][8]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][9]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][10]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][11]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][12]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][13]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][14]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[12][15]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][0]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][1]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][2]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][3]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][4]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][5]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][6]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][7]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][8]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][9]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][10]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][11]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][12]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][13]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][14]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[13][15]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][0]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][1]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][2]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][3]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][4]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][5]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][6]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][7]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][8]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][9]           DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][10]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][11]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][12]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][13]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][14]          DFQD1           tcbn90gtc       13.708800 n
+in_w_reg[14][15]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][0]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][1]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][2]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][3]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][4]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][5]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][6]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][7]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][8]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][9]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][10]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][11]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][12]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][13]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][14]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[0][15]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][0]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][1]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][2]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][3]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][4]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][5]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][6]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][7]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][8]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][9]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][10]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][11]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][12]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][13]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][14]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[1][15]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][0]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][1]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][2]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][3]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][4]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][5]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][6]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][7]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][8]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][9]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][10]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][11]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][12]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][13]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][14]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[2][15]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][0]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][1]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][2]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][3]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][4]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][5]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][6]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][7]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][8]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][9]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][10]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][11]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][12]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][13]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][14]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[3][15]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][0]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][1]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][2]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][3]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][4]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][5]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][6]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][7]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][8]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][9]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][10]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][11]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][12]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][13]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][14]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[4][15]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][0]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][1]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][2]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][3]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][4]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][5]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][6]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][7]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][8]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][9]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][10]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][11]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][12]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][13]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][14]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[5][15]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][0]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][1]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][2]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][3]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][4]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][5]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][6]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][7]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][8]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][9]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][10]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][11]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][12]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][13]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][14]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[6][15]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][0]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][1]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][2]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][3]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][4]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][5]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][6]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][7]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][8]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][9]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][10]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][11]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][12]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][13]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][14]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[7][15]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][0]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][1]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][2]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][3]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][4]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][5]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][6]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][7]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][8]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][9]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][10]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][11]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][12]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][13]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][14]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[8][15]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][0]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][1]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][2]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][3]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][4]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][5]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][6]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][7]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][8]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][9]            DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][10]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][11]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][12]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][13]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][14]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[9][15]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][0]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][1]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][2]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][3]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][4]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][5]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][6]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][7]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][8]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][9]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][10]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][11]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][12]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][13]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][14]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[10][15]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][0]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][1]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][2]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][3]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][4]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][5]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][6]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][7]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][8]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][9]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][10]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][11]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][12]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][13]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][14]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[11][15]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][0]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][1]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][2]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][3]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][4]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][5]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][6]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][7]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][8]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][9]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][10]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][11]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][12]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][13]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][14]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[12][15]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][0]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][1]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][2]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][3]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][4]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][5]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][6]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][7]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][8]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][9]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][10]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][11]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][12]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][13]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][14]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[13][15]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][0]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][1]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][2]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][3]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][4]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][5]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][6]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][7]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][8]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][9]           DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][10]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][11]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][12]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][13]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][14]          DFQD1           tcbn90gtc       13.708800 n
+in_x_reg[14][15]          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[0]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[1]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[2]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[3]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[4]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[5]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[6]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[7]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[8]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[9]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[10]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[11]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[12]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[13]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[14]
+                          DFQD1           tcbn90gtc       13.708800 n
+input_activation_function_reg[15]
+                          DFQD1           tcbn90gtc       13.708800 n
+--------------------------------------------------------------------------------
+Total 514 cells                                           72273.600517
+1
